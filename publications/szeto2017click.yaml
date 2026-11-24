@@ -1,0 +1,17 @@
+title: 'Click Here: Human-Localized Keypoints as Guidance for Viewpoint Estimation'
+authors:
+  - R. Szeto
+  - J. J. Corso
+year: 2017
+type: conference
+venue: IEEE International Conference on Computer Vision
+venueShort: ICCV
+topics:
+  - video
+  - human
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/szeto_clickhere_iccv2017_long.pdf
+  arxiv: https://arxiv.org/abs/1703.09859
+  doi: https://doi.org/10.1109/ICCV.2017.177
+  project: https://ryanszeto.com/projects/ch-cnn
+  poster: https://web.eecs.umich.edu/~jjcorso/pubs/szeto_iccv2017_poster.pdf

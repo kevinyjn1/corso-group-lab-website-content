@@ -1,0 +1,9 @@
+name: Chen Xiph.org
+kind: dataset
+year: 2010
+summary: Eight xiph.org videos labeled pixel by pixel with the 24 MSRC semantic classes, 638 labeled frames in all, built to evaluate label propagation and later used to benchmark supervoxel methods.
+topics:
+  - video
+links:
+  - label: Website
+    href: https://web.eecs.umich.edu/~jjcorso/r/labelprop.html

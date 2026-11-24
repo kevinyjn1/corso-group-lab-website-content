@@ -1,0 +1,15 @@
+title: 'Geometric Tomography: A Limited-View Approach for Computed Tomography'
+authors:
+  - P. B. Noël
+  - J. Xu
+  - K. R. Hoffmann
+  - J. J. Corso
+year: 2009
+type: conference
+venue: Annual Symposium on Computational Geometry
+venueShort: SoCG
+topics:
+  - health
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/ascg2009-peter.pdf
+  doi: https://doi.org/10.1145/1542362.1542383

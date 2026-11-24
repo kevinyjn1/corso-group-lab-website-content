@@ -1,0 +1,15 @@
+title: Semi-Supervised Nonlinear Distance Metric Learning via Forests of Max-Margin Cluster Hierarchies
+authors:
+  - D. M. Johnson
+  - C. Xiong
+  - J. J. Corso
+year: 2016
+type: journal
+venue: IEEE Transactions on Knowledge and Data Engineering
+venueShort: TKDE
+topics:
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/johnson_tkde_preprint.pdf
+  arxiv: https://arxiv.org/abs/1402.5565
+  doi: https://doi.org/10.1109/TKDE.2015.2507130

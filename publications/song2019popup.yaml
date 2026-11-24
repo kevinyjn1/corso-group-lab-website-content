@@ -1,0 +1,19 @@
+title: 'Popup: Reconstructing 3D Video Using Particle Filtering to Aggregate Crowd Responses'
+authors:
+  - J. Y. Song
+  - S. J. Lemmer
+  - M. X. Liu
+  - S. Yan
+  - J. Kim
+  - J. J. Corso
+  - W. S. Lasecki
+year: 2019
+type: conference
+venue: ACM International Conference on Intelligent User Interfaces
+venueShort: IUI
+topics:
+  - human
+  - video
+  - learning
+links:
+  doi: https://doi.org/10.1145/3301275.3302305

@@ -1,0 +1,15 @@
+title: 'VisHap: Augmented Reality Combining Haptics and Vision'
+authors:
+  - G. Ye
+  - J. J. Corso
+  - G. D. Hager
+  - A. M. Okamura
+year: 2003
+type: conference
+venue: IEEE International Conference on Systems, Man and Cybernetics
+venueShort: SMC
+topics:
+  - human
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/gyeSMCC2003.pdf
+  doi: https://doi.org/10.1109/ICSMC.2003.1244419

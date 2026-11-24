@@ -1,0 +1,21 @@
+title: 'EchoVQA: Enabling Conversational Assistance for Point-of-Care Cardiac Ultrasound'
+authors:
+  - F. Bellos
+  - Y. Li
+  - J. N. Dong
+  - Z. Guo
+  - E. J. MacKay
+  - Y. Li
+  - Y. Avrithis
+  - A. M. Pouch
+  - J. J. Corso
+year: 2026
+date: 2026-09
+type: conference
+venue: International Conference on Medical Image Computing and Computer-Assisted Intervention
+venueShort: MICCAI
+topics:
+  - health
+  - language
+links:
+  arxiv: https://arxiv.org/abs/2605.24159

@@ -1,0 +1,16 @@
+title: An Optimization Based Framework for Human Pose Estimation in Monocular Videos
+authors:
+  - P. Agarwal
+  - S. Kumar
+  - J. Ryde
+  - J. J. Corso
+  - V. N. Krovi
+year: 2012
+type: conference
+venue: International Symposium on Visual Computing
+venueShort: ISVC
+topics:
+  - video
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/pagarwalISVC2012_pose.pdf
+  doi: https://doi.org/10.1007/978-3-642-33179-4_55

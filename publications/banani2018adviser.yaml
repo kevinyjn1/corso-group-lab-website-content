@@ -1,0 +1,14 @@
+title: 'Adviser Networks: Learning What Question to Ask for Human-in-the-Loop Viewpoint Estimation'
+authors:
+  - M. El Banani
+  - J. J. Corso
+year: 2018
+type: preprint
+venue: arXiv preprint
+venueShort: arXiv
+topics:
+  - video
+  - human
+links:
+  arxiv: https://arxiv.org/abs/1802.01666
+  code: https://github.com/mbanani/adviser_networks

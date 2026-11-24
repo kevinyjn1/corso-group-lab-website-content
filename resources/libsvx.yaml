@@ -1,0 +1,12 @@
+name: LIBSVX
+kind: software
+year: 2012
+summary: A supervoxel library and benchmark for early video processing. The benchmark compares seven supervoxel methods, five off-line and two streaming, on six video datasets with seven quality metrics.
+topics:
+  - video
+awards:
+  - Best Open Source Code, 3rd Prize, CVPR 2012
+  - Best Demo Prize, Greater New York Multimedia and Vision Meeting 2012
+links:
+  - label: Website
+    href: https://web.eecs.umich.edu/~jjcorso/r/supervoxels/

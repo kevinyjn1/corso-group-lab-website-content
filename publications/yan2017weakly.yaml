@@ -1,0 +1,14 @@
+title: Weakly Supervised Actor-Action Segmentation via Robust Multi-Task Ranking
+authors:
+  - Y. Yan
+  - C. Xu
+  - D. Cai
+  - J. J. Corso
+year: 2017
+type: conference
+venue: IEEE Conference on Computer Vision and Pattern Recognition
+venueShort: CVPR
+topics:
+  - video
+links:
+  doi: https://doi.org/10.1109/CVPR.2017.115

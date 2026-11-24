@@ -1,0 +1,13 @@
+title: Brain Tumor Segmentation Based on GMM and Active Contour Method with a Model-Aware Edge Map
+authors:
+  - L. Zhao
+  - W. Wu
+  - J. J. Corso
+year: 2012
+type: conference
+venue: MICCAI Challenge on Multimodal Brain Tumor Segmentation (BRATS)
+venueShort: MICCAI Workshops
+topics:
+  - health
+links:
+  pdf: http://www2.imm.dtu.dk/projects/BRATS2012/ZhaoBRATS2012.pdf

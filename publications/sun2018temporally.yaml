@@ -1,0 +1,16 @@
+title: A Temporally-Aware Interpolation Network for Video Frame Inpainting
+authors:
+  - X. Sun
+  - R. Szeto
+  - J. J. Corso
+year: 2018
+type: conference
+venue: Asian Conference on Computer Vision
+venueShort: ACCV
+topics:
+  - video
+links:
+  arxiv: https://arxiv.org/abs/1803.07218
+  doi: https://doi.org/10.1007/978-3-030-20893-6_16
+  code: https://github.com/sunxm2357/TAI_video_frame_inpainting
+  project: https://ryanszeto.com/projects/tai.html

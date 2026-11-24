@@ -1,0 +1,14 @@
+title: Actor-Action Semantic Segmentation with Grouping Process Models
+authors:
+  - C. Xu
+  - J. J. Corso
+year: 2016
+type: conference
+venue: IEEE Conference on Computer Vision and Pattern Recognition
+venueShort: CVPR
+topics:
+  - video
+links:
+  arxiv: https://arxiv.org/abs/1512.09041
+  doi: https://doi.org/10.1109/CVPR.2016.336
+  data: https://web.eecs.umich.edu/~jjcorso/r/a2d

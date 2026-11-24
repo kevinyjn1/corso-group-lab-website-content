@@ -1,0 +1,16 @@
+title: Jointly Modeling Deep Video and Compositional Text to Bridge Vision and Language in a Unified Framework
+authors:
+  - R. Xu
+  - C. Xiong
+  - W. Chen
+  - J. J. Corso
+year: 2015
+type: conference
+venue: AAAI Conference on Artificial Intelligence
+venueShort: AAAI
+topics:
+  - video
+  - language
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/xu_corso_AAAI2015_v2t.pdf
+  doi: https://doi.org/10.1609/aaai.v29i1.9512

@@ -1,0 +1,79 @@
+title: The Multimodal Brain Tumor Image Segmentation Benchmark (BRATS)
+authors:
+  - B. H. Menze
+  - A. Jakab
+  - S. Bauer
+  - J. Kalpathy-Cramer
+  - K. Farahani
+  - J. Kirby
+  - Y. Burren
+  - N. Porz
+  - J. Slotboom
+  - R. Wiest
+  - L. Lanczi
+  - E. Gerstner
+  - M.-A. Weber
+  - T. Arbel
+  - B. B. Avants
+  - N. Ayache
+  - P. Buendia
+  - D. L. Collins
+  - N. Cordier
+  - J. J. Corso
+  - A. Criminisi
+  - T. Das
+  - H. Delingette
+  - C. Demiralp
+  - C. R. Durst
+  - M. Dojat
+  - S. Doyle
+  - J. Festa
+  - F. Forbes
+  - E. Geremia
+  - B. Glocker
+  - P. Golland
+  - X. Guo
+  - A. Hamamci
+  - K. M. Iftekharuddin
+  - R. Jena
+  - N. M. John
+  - E. Konukoglu
+  - D. Lashkari
+  - J. A. Mariz
+  - R. Meier
+  - S. Pereira
+  - D. Precup
+  - S. J. Price
+  - T. Riklin Raviv
+  - S. M. S. Reza
+  - M. Ryan
+  - D. Sarikaya
+  - L. Schwartz
+  - H.-C. Shin
+  - J. Shotton
+  - C. A. Silva
+  - N. Sousa
+  - N. K. Subbanna
+  - G. Szekely
+  - T. J. Taylor
+  - O. M. Thomas
+  - N. J. Tustison
+  - G. Unal
+  - F. Vasseur
+  - M. Wintermark
+  - D. H. Ye
+  - L. Zhao
+  - B. Zhao
+  - D. Zikic
+  - M. Prastawa
+  - M. Reyes
+  - K. Van Leemput
+year: 2015
+type: journal
+venue: IEEE Transactions on Medical Imaging
+venueShort: TMI
+topics:
+  - health
+featured: true
+links:
+  doi: https://doi.org/10.1109/TMI.2014.2377694

@@ -1,0 +1,20 @@
+title: Grounded Video Description
+authors:
+  - L. Zhou
+  - Y. Kalantidis
+  - X. Chen
+  - J. J. Corso
+  - M. Rohrbach
+year: 2019
+type: conference
+venue: IEEE Conference on Computer Vision and Pattern Recognition
+venueShort: CVPR
+note: Oral
+topics:
+  - video
+  - language
+featured: true
+links:
+  pdf: https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhou_Grounded_Video_Description_CVPR_2019_paper.pdf
+  arxiv: https://arxiv.org/abs/1812.06587
+  doi: https://doi.org/10.1109/CVPR.2019.00674

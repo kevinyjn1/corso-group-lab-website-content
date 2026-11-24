@@ -1,0 +1,14 @@
+title: MRF Labeling with a Graph-Shifts Algorithm
+authors:
+  - J. J. Corso
+  - Z. Tu
+  - A. L. Yuille
+year: 2008
+type: conference
+venue: International Workshop on Combinatorial Image Analysis
+venueShort: IWCIA
+topics:
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/jcorso_IWCIA2008.pdf
+  doi: https://doi.org/10.1007/978-3-540-78275-9_15

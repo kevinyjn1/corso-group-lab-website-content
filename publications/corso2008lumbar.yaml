@@ -1,0 +1,14 @@
+title: Lumbar Disc Localization and Labeling with a Probabilistic Model on both Pixel and Object Features
+authors:
+  - J. J. Corso
+  - R. S. Alomari
+  - V. Chaudhary
+year: 2008
+type: conference
+venue: International Conference on Medical Image Computing and Computer-Assisted Intervention
+venueShort: MICCAI
+topics:
+  - health
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/jcorso_MICCAI2008.pdf
+  doi: https://doi.org/10.1007/978-3-540-85988-8_25

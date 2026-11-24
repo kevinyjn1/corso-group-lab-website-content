@@ -1,0 +1,15 @@
+title: A Critical Investigation of Deep Reinforcement Learning for Navigation
+authors:
+  - V. Dhiman
+  - S. Banerjee
+  - B. A. Griffin
+  - J. M. Siskind
+  - J. J. Corso
+year: 2018
+type: preprint
+venue: arXiv preprint
+venueShort: arXiv
+topics:
+  - robotics
+links:
+  arxiv: https://arxiv.org/abs/1802.02274

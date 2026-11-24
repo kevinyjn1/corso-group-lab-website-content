@@ -1,0 +1,11 @@
+name: Action Bank
+kind: software
+year: 2012
+summary: A high-level representation of activity in video, built from many individual action detectors sampled across semantic and viewpoint space.
+topics:
+  - video
+awards:
+  - Best Open Source Code, 3rd Prize, CVPR 2012
+links:
+  - label: Website
+    href: https://web.eecs.umich.edu/~jjcorso/r/actionbank/

@@ -1,0 +1,24 @@
+title: 'SurgAtlas: A Large-Scale Surgical Video-Language Dataset with 2,391 Hours of Open and Minimally Invasive Surgery'
+authors:
+  - F. Bellos
+  - A. S. Gala-Garza
+  - M. Wang
+  - A. M. Hardin
+  - A. M. Hider
+  - Y. Li
+  - J. Bi
+  - S. Liang
+  - C. Xu
+  - D. S. Likosky
+  - J. J. Corso
+year: 2026
+date: 2026-06
+type: preprint
+venue: arXiv preprint
+venueShort: arXiv
+topics:
+  - health
+  - language
+featured: true
+links:
+  arxiv: https://arxiv.org/abs/2606.25905

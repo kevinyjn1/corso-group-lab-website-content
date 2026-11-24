@@ -1,0 +1,15 @@
+title: Labeling of Lumbar Discs using both Pixel- and Object-Level Features with a Two-Level Probabilistic Model
+authors:
+  - R. S. Alomari
+  - J. J. Corso
+  - V. Chaudhary
+year: 2011
+type: journal
+venue: IEEE Transactions on Medical Imaging
+venueShort: TMI
+topics:
+  - health
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/tmi2011_lumbar.pdf
+  doi: https://doi.org/10.1109/TMI.2010.2047403

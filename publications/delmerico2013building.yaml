@@ -1,0 +1,18 @@
+title: Building Facade Detection, Segmentation, and Parameter Estimation for Mobile Robot Stereo Vision
+authors:
+  - J. A. Delmerico
+  - P. David
+  - J. J. Corso
+year: 2013
+type: journal
+venue: Image and Vision Computing
+venueShort: IVC
+topics:
+  - video
+  - robotics
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/Facades-Delmerico-IVC-final.pdf
+  doi: https://doi.org/10.1016/j.imavis.2013.08.006
+  data: https://web.eecs.umich.edu/~jjcorso/r/gbs/files/CPStereoFacadeDataset.zip
+  project: https://web.eecs.umich.edu/~jjcorso/r/gbs/

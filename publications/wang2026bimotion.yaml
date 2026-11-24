@@ -1,0 +1,18 @@
+title: 'BiMotion: B-spline Motion for Text-guided Dynamic 3D Character Generation'
+authors:
+  - M. Wang
+  - Q. Yan
+  - Z. Cao
+  - Y. Li
+  - O. Mac Aodha
+  - J. J. Corso
+  - A. Vaxman
+year: 2026
+date: 2026-06
+type: conference
+venue: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+venueShort: CVPR
+topics:
+  - learning
+links:
+  arxiv: https://arxiv.org/abs/2602.18873

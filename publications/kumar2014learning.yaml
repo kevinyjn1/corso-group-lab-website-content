@@ -1,0 +1,16 @@
+title: Learning Compositional Sparse Models of Bimodal Percepts
+authors:
+  - S. Kumar
+  - V. Dhiman
+  - J. J. Corso
+year: 2014
+type: conference
+venue: AAAI Conference on Artificial Intelligence
+venueShort: AAAI
+topics:
+  - language
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/aaai2014_kumar_final.pdf
+  doi: https://doi.org/10.1609/aaai.v28i1.8753
+  code: https://bitbucket.org/surenkum/bimodal_sparse

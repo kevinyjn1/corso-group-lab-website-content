@@ -1,0 +1,15 @@
+title: 'ViP: Video Platform for PyTorch'
+authors:
+  - M. R. Ganesh
+  - E. Hofesmann
+  - N. Louis
+  - J. J. Corso
+year: 2019
+type: preprint
+venue: arXiv preprint
+venueShort: arXiv
+topics:
+  - video
+  - learning
+links:
+  arxiv: https://arxiv.org/abs/1910.02793

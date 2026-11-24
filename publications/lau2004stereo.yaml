@@ -1,0 +1,17 @@
+title: Stereo-Based Endoscopic Tracking of Cardiac Surface Deformation
+authors:
+  - W. W. Lau
+  - N. A. Ramey
+  - J. J. Corso
+  - N. Thakor
+  - G. D. Hager
+year: 2004
+type: conference
+venue: International Conference on Medical Image Computing and Computer-Assisted Intervention
+venueShort: MICCAI
+topics:
+  - video
+  - robotics
+  - health
+links:
+  doi: https://doi.org/10.1007/978-3-540-30136-3_61

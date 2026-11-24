@@ -1,0 +1,20 @@
+title: Iterative Vision-and-Language Navigation
+authors:
+  - J. Krantz
+  - S. Banerjee
+  - W. Zhu
+  - J. J. Corso
+  - P. Anderson
+  - S. Lee
+  - J. Thomason
+year: 2023
+type: conference
+venue: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+venueShort: CVPR
+topics:
+  - language
+  - robotics
+featured: true
+links:
+  arxiv: https://arxiv.org/abs/2210.03087
+  doi: https://doi.org/10.1109/CVPR52729.2023.01433

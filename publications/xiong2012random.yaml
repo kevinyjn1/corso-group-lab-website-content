@@ -1,0 +1,18 @@
+title: Random Forests for Metric Learning with Implicit Pairwise Position Dependence
+authors:
+  - C. Xiong
+  - D. M. Johnson
+  - R. Xu
+  - J. J. Corso
+year: 2012
+type: conference
+venue: ACM SIGKDD International Conference on Knowledge Discovery and Data Mining
+venueShort: KDD
+topics:
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/xiong_KDD2012.pdf
+  arxiv: https://arxiv.org/abs/1201.0610
+  doi: https://doi.org/10.1145/2339530.2339680
+  code: https://web.eecs.umich.edu/~jjcorso/pubs/RFD_Package.zip
+  slides: https://web.eecs.umich.edu/~jjcorso/pubs/cxiong_KDD2012_rfd.ppsx

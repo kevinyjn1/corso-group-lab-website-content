@@ -1,0 +1,16 @@
+title: Segmentation of Sub-Cortical Structures by the Graph-Shifts Algorithm
+authors:
+  - J. J. Corso
+  - Z. Tu
+  - A. L. Yuille
+  - A. W. Toga
+year: 2007
+type: conference
+venue: Information Processing in Medical Imaging
+venueShort: IPMI
+topics:
+  - health
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/jcorso_ipmi2007.pdf
+  doi: https://doi.org/10.1007/978-3-540-73273-0_16

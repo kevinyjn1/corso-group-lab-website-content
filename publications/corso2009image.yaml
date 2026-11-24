@@ -1,0 +1,13 @@
+title: Image Description with Features that Summarize
+authors:
+  - J. J. Corso
+  - G. D. Hager
+year: 2009
+type: journal
+venue: Computer Vision and Image Understanding
+venueShort: CVIU
+topics:
+  - video
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/cviu2009_regions.pdf
+  doi: https://doi.org/10.1016/j.cviu.2008.11.009

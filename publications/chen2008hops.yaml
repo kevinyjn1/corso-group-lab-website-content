@@ -1,0 +1,15 @@
+title: 'HOPS: Efficient Region Labeling using Higher Order Proxy Neighborhoods'
+authors:
+  - A. Y. C. Chen
+  - J. J. Corso
+  - L. Wang
+year: 2008
+type: conference
+venue: International Conference on Pattern Recognition
+venueShort: ICPR
+topics:
+  - video
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/aychen_ICPR2008.pdf
+  doi: https://doi.org/10.1109/ICPR.2008.4761122

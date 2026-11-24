@@ -1,0 +1,13 @@
+title: Coherent Regions for Concise and Stable Image Description
+authors:
+  - J. J. Corso
+  - G. D. Hager
+year: 2005
+type: conference
+venue: IEEE Conference on Computer Vision and Pattern Recognition
+venueShort: CVPR
+topics:
+  - video
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/jcorso_cvpr2005.pdf
+  doi: https://doi.org/10.1109/CVPR.2005.100

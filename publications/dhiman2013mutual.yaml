@@ -1,0 +1,16 @@
+title: 'Mutual Localization: Two Camera Relative 6-DOF Pose Estimation from Reciprocal Fiducial Observation'
+authors:
+  - V. Dhiman
+  - J. Ryde
+  - J. J. Corso
+year: 2013
+type: conference
+venue: International Conference on Intelligent Robots and Systems
+venueShort: IROS
+topics:
+  - robotics
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/vdhiman_iros2013_mutloc.pdf
+  arxiv: https://arxiv.org/abs/1301.3758
+  doi: https://doi.org/10.1109/IROS.2013.6696524
+  code: https://github.com/wecacuee/mutual_localization

@@ -1,0 +1,12 @@
+name: ViP
+kind: software
+year: 2019
+featured: true
+summary: A PyTorch video platform that makes it easier to train and compare models for action recognition and object detection.
+topics:
+  - video
+links:
+  - label: Code
+    href: https://github.com/MichiganCOG/ViP
+  - label: Paper
+    href: https://arxiv.org/abs/1910.02793

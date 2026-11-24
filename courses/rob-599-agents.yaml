@@ -1,0 +1,15 @@
+order: 0
+code: ROB 599
+title: Physically-Grounded AI Agents
+institution: michigan
+terms:
+  - Fall 2026
+current: true
+with: Yayuan Li
+summary: An advanced topics course in robot perception built around debate. After two overview lectures, each session puts two to four recent papers head to head, and any student can be called on to argue a side. Topics run from vision-language-action models and world models to agent memory and multi-agent systems.
+url: https://github.com/yayuanli-org/awesome-physical-ai/tree/main/courses/umich-26fall-rob599-physically-grounded-ai-agents
+links:
+  - label: The paper hub behind the course
+    href: https://yayuanli-org.github.io/awesome-physical-ai/
+  - label: Prof. Corso in TIME on teaching with AI
+    href: https://time.com/article/2026/08/26/why-i-stopped-fighting-ai-in-my-classroom-and-started-teaching-with-it/

@@ -1,0 +1,17 @@
+title: 'Ascending Stairway Modeling: A First Step Toward Autonomous Multi-Floor Exploration'
+authors:
+  - J. A. Delmerico
+  - J. J. Corso
+  - D. Baran
+  - P. David
+  - J. Ryde
+year: 2012
+type: conference
+venue: International Conference on Intelligent Robots and Systems (Video Proceedings)
+venueShort: IROS
+topics:
+  - robotics
+links:
+  doi: https://doi.org/10.1109/IROS.2012.6386283
+  project: https://web.eecs.umich.edu/~jjcorso/r/gbs/
+  video: https://www.youtube.com/watch?v=fGkA7srkgs8

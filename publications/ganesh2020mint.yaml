@@ -1,0 +1,14 @@
+title: 'MINT: Deep Network Compression via Mutual Information-based Neuron Trimming'
+authors:
+  - M. R. Ganesh
+  - J. J. Corso
+  - S. Y. Sekeh
+year: 2020
+type: conference
+venue: International Conference on Pattern Recognition
+venueShort: ICPR
+topics:
+  - learning
+links:
+  arxiv: https://arxiv.org/abs/2003.08472
+  doi: https://doi.org/10.1109/ICPR48806.2021.9412590

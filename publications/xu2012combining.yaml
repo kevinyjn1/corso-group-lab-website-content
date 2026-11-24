@@ -1,0 +1,17 @@
+title: Combining Skeletal Pose with Local Motion for Human Activity Recognition
+authors:
+  - R. Xu
+  - P. Agarwal
+  - S. Kumar
+  - V. N. Krovi
+  - J. J. Corso
+year: 2012
+type: conference
+venue: Conference on Articulated Motion and Deformable Objects
+venueShort: AMDO
+topics:
+  - video
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/jcorso_AMDO2012.pdf
+  doi: https://doi.org/10.1007/978-3-642-31567-1_11
+  slides: https://web.eecs.umich.edu/~jjcorso/pubs/rxu_AMDO2012_slides.pdf

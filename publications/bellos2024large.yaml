@@ -1,0 +1,16 @@
+title: Can Large Language Models Reason About Goal-Oriented Tasks?
+authors:
+  - F. Bellos
+  - Y. Li
+  - W. Liu
+  - J. J. Corso
+year: 2024
+date: 2024-03
+type: conference
+venue: Workshop on the Scaling Behavior of Large Language Models at EACL
+venueShort: EACL Workshops
+topics:
+  - language
+  - human
+links:
+  doi: https://doi.org/10.18653/v1/2024.scalellm-1.3

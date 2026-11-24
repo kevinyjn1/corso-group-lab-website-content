@@ -1,0 +1,15 @@
+title: Robot-Supervised Learning for Object Segmentation
+authors:
+  - V. Florence
+  - J. J. Corso
+  - B. A. Griffin
+year: 2020
+type: conference
+venue: IEEE International Conference on Robotics and Automation
+venueShort: ICRA
+topics:
+  - robotics
+  - video
+links:
+  arxiv: https://arxiv.org/abs/1904.00952
+  doi: https://doi.org/10.1109/ICRA40945.2020.9196543

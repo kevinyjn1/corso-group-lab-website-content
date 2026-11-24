@@ -1,0 +1,15 @@
+title: Estimating Dynamics On-the-Fly Using Monocular Video for Vision-Based Robotics
+authors:
+  - P. Agarwal
+  - S. Kumar
+  - J. Ryde
+  - J. J. Corso
+  - V. N. Krovi
+year: 2014
+type: journal
+venue: IEEE/ASME Transactions on Mechatronics
+venueShort: TMECH
+topics:
+  - video
+links:
+  doi: https://doi.org/10.1109/TMECH.2013.2284235

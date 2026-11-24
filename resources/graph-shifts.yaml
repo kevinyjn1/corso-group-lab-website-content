@@ -1,0 +1,10 @@
+name: Graph-Shifts
+kind: software
+year: 2008
+summary: Greedy hierarchical energy minimization for joint image segmentation and labeling, in two and three dimensions.
+topics:
+  - learning
+  - health
+links:
+  - label: Website
+    href: https://web.eecs.umich.edu/~jjcorso/r/graphshifts/

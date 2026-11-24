@@ -1,0 +1,15 @@
+title: Modern MAP Inference Methods for Accurate and Fast Occupancy Grid Mapping on Higher Order Factor Graphs
+authors:
+  - V. Dhiman
+  - A. Kundu
+  - F. Dellaert
+  - J. J. Corso
+year: 2014
+type: conference
+venue: IEEE International Conference on Robotics and Automation
+venueShort: ICRA
+topics:
+  - robotics
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/dhiman_ICRA2014_modernmap.pdf
+  code: https://github.com/wecacuee/modern-occupancy-grid

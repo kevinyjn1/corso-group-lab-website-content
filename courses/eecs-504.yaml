@@ -1,0 +1,15 @@
+order: 2
+code: EECS 504
+title: Foundations of Computer Vision
+institution: michigan
+terms:
+  - Fall 2023
+  - Fall 2020
+  - Fall 2018
+  - Winter 2018
+  - Fall 2016
+  - Fall 2015 (as EECS 598)
+  - Fall 2014 (as EECS 598)
+summary: Computer vision as a search for visual invariants and as mathematical modeling. Covers foundational representations of images and the cross-cutting problems of reduction, estimation, and matching.
+url: https://web.eecs.umich.edu/~jjcorso/t/504F16/
+urlTerm: Fall 2016

@@ -1,0 +1,15 @@
+title: Video Object Segmentation-based Visual Servo Control and Object Depth Estimation on a Mobile Robot
+authors:
+  - B. A. Griffin
+  - V. Florence
+  - J. J. Corso
+year: 2020
+type: conference
+venue: IEEE Winter Conference on Applications of Computer Vision
+venueShort: WACV
+topics:
+  - robotics
+  - video
+links:
+  arxiv: https://arxiv.org/abs/1903.08336
+  doi: https://doi.org/10.1109/WACV45572.2020.9093335

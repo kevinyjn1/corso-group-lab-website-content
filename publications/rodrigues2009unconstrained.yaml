@@ -1,0 +1,15 @@
+title: Unconstrained Face Recognition Using MRF Priors and Manifold Traversing
+authors:
+  - R. Rodrigues
+  - G. Schroeder
+  - J. J. Corso
+  - V. Govindaraju
+year: 2009
+type: conference
+venue: 'IEEE International Conference on Biometrics: Theory, Applications, Systems'
+venueShort: BTAS
+topics:
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/btas2009_mrf.pdf
+  doi: https://doi.org/10.1109/BTAS.2009.5339080

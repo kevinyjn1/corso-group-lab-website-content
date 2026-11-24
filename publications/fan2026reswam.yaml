@@ -1,0 +1,17 @@
+title: 'ResWAM: Learning What Changes, Not What Stays, for World-Action Models'
+authors:
+  - C. Fan
+  - G. Liu
+  - R. R. Kompella
+  - J. J. Corso
+  - S. Liu
+year: 2026
+date: 2026-11
+type: preprint
+venue: arXiv preprint
+venueShort: arXiv
+topics:
+  - robotics
+  - learning
+links:
+  arxiv: https://arxiv.org/abs/2611.19559

@@ -1,0 +1,17 @@
+title: 'BubbleNets: Learning to Select the Guidance Frame in Video Object Segmentation by Deep Sorting Frames'
+authors:
+  - B. A. Griffin
+  - J. J. Corso
+year: 2019
+type: conference
+venue: IEEE Conference on Computer Vision and Pattern Recognition
+venueShort: CVPR
+note: Oral, Best Paper Finalist
+topics:
+  - video
+  - human
+featured: true
+links:
+  pdf: https://openaccess.thecvf.com/content_CVPR_2019/papers/Griffin_BubbleNets_Learning_to_Select_the_Guidance_Frame_in_Video_Object_CVPR_2019_paper.pdf
+  arxiv: https://arxiv.org/abs/1903.11779
+  doi: https://doi.org/10.1109/CVPR.2019.00912

@@ -1,0 +1,17 @@
+title: A Dataset to Evaluate the Representations Learned by Video Prediction Models
+authors:
+  - R. Szeto
+  - S. Stent
+  - G. Ros
+  - J. J. Corso
+year: 2018
+type: report
+venue: International Conference on Learning Representations Workshops
+venueShort: ICLR Workshops
+topics:
+  - video
+  - learning
+links:
+  arxiv: https://arxiv.org/abs/1802.08936
+  code: https://github.com/rszeto/moving-symbols
+  project: https://ryanszeto.com/projects/moving-symbols.html

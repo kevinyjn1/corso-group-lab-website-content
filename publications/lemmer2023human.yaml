@@ -1,0 +1,13 @@
+title: 'Human-Centered Deferred Inference: Measuring User Interactions and Setting Deferral Criteria for Human-AI Teams'
+authors:
+  - S. J. Lemmer
+  - A. Guo
+  - J. J. Corso
+year: 2023
+type: conference
+venue: ACM International Conference on Intelligent User Interfaces
+venueShort: IUI
+topics:
+  - human
+links:
+  doi: https://doi.org/10.1145/3581641.3584092

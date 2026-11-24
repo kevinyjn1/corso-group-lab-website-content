@@ -1,0 +1,22 @@
+title: 'TDMM-LM: Bridging Facial Understanding and Animation via Language Models'
+authors:
+  - L. Song
+  - P. Liu
+  - H. Liu
+  - Z. Jin
+  - Y. Tang
+  - Z. Xu
+  - S. Liang
+  - J. Bi
+  - J. J. Corso
+  - C. Xu
+year: 2026
+date: 2026-06
+type: conference
+venue: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+venueShort: CVPR
+topics:
+  - learning
+  - language
+links:
+  arxiv: https://arxiv.org/abs/2603.16936

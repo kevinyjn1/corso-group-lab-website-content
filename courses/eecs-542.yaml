@@ -1,0 +1,10 @@
+order: 4
+code: EECS 542
+title: Advanced Topics in Computer Vision
+institution: michigan
+terms:
+  - Winter 2017
+  - Winter 2016
+summary: Structured representations and embeddings for high-level vision - structured prediction, deep learning, and dictionary learning.
+url: https://web.eecs.umich.edu/~jjcorso/t/542W17/
+urlTerm: Winter 2017

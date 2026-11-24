@@ -1,0 +1,16 @@
+title: 'HyperCon: Image-to-Video Model Transfer for Video-to-Video Translation Tasks'
+authors:
+  - R. Szeto
+  - M. El-Khamy
+  - J. Lee
+  - J. J. Corso
+year: 2021
+type: conference
+venue: IEEE/CVF Winter Conference on Applications of Computer Vision
+venueShort: WACV
+topics:
+  - video
+  - learning
+links:
+  arxiv: https://arxiv.org/abs/1912.04950
+  doi: https://doi.org/10.1109/WACV48630.2021.00312

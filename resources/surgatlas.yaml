@@ -1,0 +1,11 @@
+name: SurgAtlas
+kind: dataset
+year: 2026
+featured: true
+summary: A surgical video-language dataset of 15,291 videos (2,391 hours) across 18 specialties, and the first to include open surgery at scale alongside minimally invasive procedures.
+topics:
+  - health
+  - language
+links:
+  - label: Paper
+    href: https://arxiv.org/abs/2606.25905

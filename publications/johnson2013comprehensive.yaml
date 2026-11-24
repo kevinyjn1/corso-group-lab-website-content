@@ -1,0 +1,15 @@
+title: Comprehensive Cross-Hierarchy Cluster Agreement Evaluation
+authors:
+  - D. M. Johnson
+  - C. Xiong
+  - J. Gao
+  - J. J. Corso
+year: 2013
+type: conference
+venue: AAAI Conference on Artificial Intelligence (Late-Breaking Papers Track)
+venueShort: AAAI
+topics:
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/dmjohnson_AAAI2013_LBP_hai.pdf
+  code: https://web.eecs.umich.edu/~jjcorso/pubs/HAI.zip

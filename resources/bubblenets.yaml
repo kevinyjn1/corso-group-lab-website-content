@@ -1,0 +1,11 @@
+name: BubbleNets
+kind: software
+year: 2019
+summary: Learns to select the best frame for a person to annotate in video object segmentation (CVPR 2019 oral, best paper finalist).
+topics:
+  - video
+links:
+  - label: Paper
+    href: https://arxiv.org/abs/1903.11779
+  - label: Code
+    href: https://github.com/griffbr/BubbleNets

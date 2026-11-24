@@ -1,0 +1,12 @@
+title: Discriminative Modeling by Boosting on Multilevel Aggregates
+authors:
+  - J. J. Corso
+year: 2008
+type: conference
+venue: IEEE Conference on Computer Vision and Pattern Recognition
+venueShort: CVPR
+topics:
+  - video
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/jcorso_CVPR2008_bma.pdf
+  doi: https://doi.org/10.1109/CVPR.2008.4587489

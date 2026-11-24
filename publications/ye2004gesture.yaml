@@ -1,0 +1,15 @@
+title: Gesture Recognition Using 3D Appearance and Motion Features
+authors:
+  - G. Ye
+  - J. J. Corso
+  - G. D. Hager
+year: 2004
+type: conference
+venue: Workshop on Real-time Vision for Human-Computer Interaction at CVPR
+venueShort: CVPR Workshops
+topics:
+  - video
+  - human
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/ye_CVPRRTVHCI2004.pdf
+  doi: https://doi.org/10.1109/CVPR.2004.356

@@ -1,0 +1,13 @@
+order: 3
+title: Robot Perception & Embodied AI
+short: Robotics
+summary: Perception for machines that move - depth, mapping, and navigation guided by language and dialog.
+body:
+  - A robot does not get a curated dataset. It gets a moving camera, a body, and a task. That changes what perception has to deliver, and it also offers new signal - motion itself can supervise learning.
+  - Work in this area includes estimating object depth from camera motion, driving visual servo control directly from video object segmentation, letting a robot supervise its own segmentation models, and mapping and localization for mobile robots, from occupancy grid mapping to finding building facades that a robot could localize against without GPS. On the language side, the group built RobotSlang, 169 dialogs recorded as one person drove a small physical robot through a maze and another guided by text chat, and a benchmark for navigation agents that keep their memory across a long tour of instructions in the same simulated scene.
+threads:
+  - Depth and geometry from motion
+  - Segmentation-driven visual servoing
+  - Mapping and localization
+  - Vision-and-language navigation
+  - Dialog-guided robot navigation

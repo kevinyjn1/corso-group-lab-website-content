@@ -1,0 +1,13 @@
+title: Novel Object Viewpoint Estimation through Reconstruction Alignment
+authors:
+  - M. El Banani
+  - J. J. Corso
+  - D. Fouhey
+year: 2020
+type: conference
+venue: IEEE Conference on Computer Vision and Pattern Recognition
+venueShort: CVPR
+topics:
+  - video
+links:
+  arxiv: https://arxiv.org/abs/2006.03586

@@ -1,0 +1,12 @@
+title: Joint Occlusion Boundary Detection and Figure/Ground Assignment by Extracting Common-Fate Fragments in a Back-Projection Scheme
+authors:
+  - C. Chen
+  - J. J. Corso
+year: 2017
+type: journal
+venue: Pattern Recognition
+venueShort: Pattern Recognition
+topics:
+  - video
+links:
+  doi: https://doi.org/10.1016/j.patcog.2016.10.013

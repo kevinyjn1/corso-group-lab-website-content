@@ -1,0 +1,15 @@
+title: Footwear Print Retrieval System for Real Crime Scene Marks
+authors:
+  - Y. Tang
+  - S. Srihari
+  - H. Kasiviswanathan
+  - J. J. Corso
+year: 2010
+type: conference
+venue: International Workshop on Computational Forensics
+venueShort: IWCF
+topics:
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/iwcf2010_shoeprint.pdf
+  doi: https://doi.org/10.1007/978-3-642-19376-7_8

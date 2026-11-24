@@ -1,0 +1,13 @@
+title: Adversarial Background-Aware Loss for Weakly-supervised Temporal Activity Localization
+authors:
+  - K. Min
+  - J. J. Corso
+year: 2020
+type: conference
+venue: European Conference on Computer Vision
+venueShort: ECCV
+topics:
+  - video
+featured: true
+links:
+  arxiv: https://arxiv.org/abs/2007.06643

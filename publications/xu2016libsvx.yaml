@@ -1,0 +1,13 @@
+title: 'LIBSVX: A Supervoxel Library and Benchmark for Early Video Processing'
+authors:
+  - C. Xu
+  - J. J. Corso
+year: 2016
+type: journal
+venue: International Journal of Computer Vision
+venueShort: IJCV
+topics:
+  - video
+links:
+  arxiv: https://arxiv.org/abs/1512.09049
+  doi: https://doi.org/10.1007/s11263-016-0906-5

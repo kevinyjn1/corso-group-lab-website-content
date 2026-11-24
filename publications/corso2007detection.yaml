@@ -1,0 +1,16 @@
+title: Detection and Segmentation of Pathological Structures by the Extended Graph-Shifts Algorithm
+authors:
+  - J. J. Corso
+  - A. L. Yuille
+  - N. L. Sicotte
+  - A. W. Toga
+year: 2007
+type: conference
+venue: International Conference on Medical Image Computing and Computer-Assisted Intervention
+venueShort: MICCAI
+topics:
+  - health
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/jcorso_MICCAI2007.pdf
+  doi: https://doi.org/10.1007/978-3-540-75757-3_119

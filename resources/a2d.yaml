@@ -1,0 +1,12 @@
+name: 'A2D: Actor-Action Dataset'
+kind: dataset
+year: 2015
+featured: true
+summary: 3,782 YouTube videos of seven kinds of actor doing eight actions, with pixel-level actor and action labels on three to five frames of each video, built for joint actor-action recognition and semantic segmentation.
+topics:
+  - video
+links:
+  - label: Website
+    href: https://web.eecs.umich.edu/~jjcorso/r/a2d/
+  - label: Paper
+    href: https://web.eecs.umich.edu/~jjcorso/pubs/xu_corso_CVPR2015_A2D.pdf

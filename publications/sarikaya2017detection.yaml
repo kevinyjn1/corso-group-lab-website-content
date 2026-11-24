@@ -1,0 +1,15 @@
+title: Detection and Localization of Robotic Tools in Robot-Assisted Surgery Videos Using Deep Neural Networks for Region Proposal and Detection
+authors:
+  - D. Sarikaya
+  - J. J. Corso
+  - K. A. Guru
+year: 2017
+type: journal
+venue: IEEE Transactions on Medical Imaging
+venueShort: TMI
+topics:
+  - health
+  - video
+links:
+  arxiv: https://arxiv.org/abs/2008.00936
+  doi: https://doi.org/10.1109/TMI.2017.2665671

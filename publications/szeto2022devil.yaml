@@ -1,0 +1,15 @@
+title: 'The DEVIL is in the Details: A Diagnostic Evaluation Benchmark for Video Inpainting'
+authors:
+  - R. Szeto
+  - J. J. Corso
+year: 2022
+type: conference
+venue: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+venueShort: CVPR
+topics:
+  - video
+  - learning
+featured: true
+links:
+  arxiv: https://arxiv.org/abs/2105.05332
+  doi: https://doi.org/10.1109/CVPR52688.2022.02038

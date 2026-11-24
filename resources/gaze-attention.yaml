@@ -1,0 +1,12 @@
+name: Gaze-Attention
+kind: software
+year: 2021
+summary: Integrates human gaze into spatiotemporal attention for egocentric activity recognition (WACV 2021).
+topics:
+  - video
+  - human
+links:
+  - label: Code
+    href: https://github.com/MichiganCOG/Gaze-Attention
+  - label: Paper
+    href: https://arxiv.org/abs/2011.03920

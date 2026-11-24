@@ -1,0 +1,15 @@
+title: 'Action Bank: A High-Level Representation of Activity in Video'
+authors:
+  - S. Sadanand
+  - J. J. Corso
+year: 2012
+type: conference
+venue: IEEE Conference on Computer Vision and Pattern Recognition
+venueShort: CVPR
+topics:
+  - video
+featured: true
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/jcorso_CVPR2012_actionbank.pdf
+  doi: https://doi.org/10.1109/CVPR.2012.6247806
+  project: https://web.eecs.umich.edu/~jjcorso/r/actionbank/

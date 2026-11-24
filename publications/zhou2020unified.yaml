@@ -1,0 +1,17 @@
+title: Unified Vision-Language Pre-Training for Image Captioning and VQA
+authors:
+  - L. Zhou
+  - H. Palangi
+  - L. Zhang
+  - H. Hu
+  - J. J. Corso
+  - J. Gao
+year: 2020
+type: conference
+venue: AAAI Conference on Artificial Intelligence
+venueShort: AAAI
+topics:
+  - language
+featured: true
+links:
+  arxiv: https://arxiv.org/abs/1909.11059

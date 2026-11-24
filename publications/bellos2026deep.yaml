@@ -1,0 +1,16 @@
+title: 'Deep TPC: Temporal-Prior Conditioning for Time Series Forecasting'
+authors:
+  - F. Bellos
+  - N. J. Premkumar
+  - Y. Avrithis
+  - N. H. Nguyen
+  - J. J. Corso
+year: 2026
+date: 2026-05
+type: conference
+venue: IEEE International Conference on Acoustics, Speech and Signal Processing
+venueShort: ICASSP
+topics:
+  - learning
+links:
+  arxiv: https://arxiv.org/abs/2602.16188

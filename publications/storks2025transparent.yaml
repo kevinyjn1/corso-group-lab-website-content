@@ -1,0 +1,19 @@
+title: Transparent and Coherent Procedural Mistake Detection
+authors:
+  - S. Storks
+  - I. Bar-Yossef
+  - Y. Li
+  - Z. Zhang
+  - J. J. Corso
+  - J. Chai
+year: 2025
+date: 2025-11
+type: conference
+venue: Conference on Empirical Methods in Natural Language Processing
+venueShort: EMNLP
+topics:
+  - human
+  - language
+links:
+  arxiv: https://arxiv.org/abs/2412.11927
+  doi: https://doi.org/10.18653/v1/2025.emnlp-main.706

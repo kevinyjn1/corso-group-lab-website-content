@@ -1,0 +1,15 @@
+title: 'T-RECS: Training for Rate-Invariant Embeddings by Controlling Speed for Action Recognition'
+authors:
+  - M. R. Ganesh
+  - E. Hofesmann
+  - B. Min
+  - N. Gafoor
+  - J. J. Corso
+year: 2018
+type: preprint
+venue: arXiv preprint
+venueShort: arXiv
+topics:
+  - video
+links:
+  arxiv: https://arxiv.org/abs/1803.08094

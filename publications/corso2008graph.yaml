@@ -1,0 +1,17 @@
+title: 'Graph-Shifts: Natural Image Labeling by Dynamic Hierarchical Computing'
+authors:
+  - J. J. Corso
+  - A. L. Yuille
+  - Z. Tu
+year: 2008
+type: conference
+venue: IEEE Conference on Computer Vision and Pattern Recognition
+venueShort: CVPR
+topics:
+  - video
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/jcorso_CVPR2008_gs.pdf
+  doi: https://doi.org/10.1109/CVPR.2008.4587490
+  code: https://web.eecs.umich.edu/~jjcorso/r/graphshifts/files/graphshifts-R2008.tar.gz
+  project: https://web.eecs.umich.edu/~jjcorso/r/graphshifts/

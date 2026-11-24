@@ -1,0 +1,23 @@
+title: 'Omni-Judge: Can Omni-LLMs Serve as Human-Aligned Judges for Text-Conditioned Audio-Video Generation?'
+authors:
+  - S. Liang
+  - C. Huang
+  - F. Bellos
+  - Y. Tang
+  - Q. Shen
+  - J. Bi
+  - L. Song
+  - Z. Zhang
+  - J. J. Corso
+  - C. Xu
+year: 2026
+date: 2026-02
+type: preprint
+venue: arXiv preprint
+venueShort: arXiv
+topics:
+  - language
+  - video
+  - learning
+links:
+  arxiv: https://arxiv.org/abs/2602.01623

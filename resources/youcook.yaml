@@ -1,0 +1,10 @@
+name: YouCook
+kind: dataset
+year: 2013
+summary: 88 third-person cooking videos from YouTube in six cooking styles, each with several human descriptions. The 49 training videos also have object annotations.
+topics:
+  - language
+  - video
+links:
+  - label: Website
+    href: https://web.eecs.umich.edu/~jjcorso/r/youcook/

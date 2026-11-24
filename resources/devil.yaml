@@ -1,0 +1,12 @@
+name: DEVIL
+kind: dataset
+year: 2022
+summary: 'A diagnostic benchmark for video inpainting: 1,250 clips, labeled by attributes such as camera and scene motion and scored on ten slices with five metrics, so that failure modes can be isolated and compared.'
+topics:
+  - video
+  - learning
+links:
+  - label: Code
+    href: https://github.com/MichiganCOG/devil
+  - label: Paper
+    href: https://arxiv.org/abs/2105.05332

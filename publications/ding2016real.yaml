@@ -1,0 +1,16 @@
+title: Real-Time Model Predictive Control for Keeping a Quadrotor Visible on the Camera Field-of-View of a Ground Robot
+authors:
+  - W. Ding
+  - M. R. Ganesh
+  - R. N. Severinghaus
+  - J. J. Corso
+  - D. Panagou
+year: 2016
+type: conference
+venue: American Control Conference
+venueShort: ACC
+topics:
+  - video
+  - robotics
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/ding_ACC2016.pdf

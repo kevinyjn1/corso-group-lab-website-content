@@ -1,0 +1,14 @@
+title: Multilevel Segmentation and Integrated Bayesian Model Classification with an Application to Brain Tumor Segmentation
+authors:
+  - J. J. Corso
+  - E. Sharon
+  - A. L. Yuille
+year: 2006
+type: conference
+venue: International Conference on Medical Image Computing and Computer-Assisted Intervention
+venueShort: MICCAI
+topics:
+  - health
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/jcorso_MICCAI2006.pdf
+  doi: https://doi.org/10.1007/11866763_97

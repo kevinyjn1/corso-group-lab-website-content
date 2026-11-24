@@ -1,0 +1,12 @@
+name: RobotSlang
+kind: dataset
+year: 2020
+summary: A benchmark of 169 text dialogs, nearly 5,000 utterances, in which a human driver steers a small physical robot through 116 tabletop mazes while a human commander guides it, with over 1,000 minutes of robot camera and control streams.
+topics:
+  - robotics
+  - language
+links:
+  - label: Code
+    href: https://github.com/MichiganCOG/RobotSlangBenchmark
+  - label: Paper
+    href: https://arxiv.org/abs/2010.12639

@@ -1,0 +1,13 @@
+title: Learning Object Depth from Camera Motion and Video Object Segmentation
+authors:
+  - B. A. Griffin
+  - J. J. Corso
+year: 2020
+type: conference
+venue: European Conference on Computer Vision
+venueShort: ECCV
+topics:
+  - robotics
+  - video
+links:
+  arxiv: https://arxiv.org/abs/2007.05676

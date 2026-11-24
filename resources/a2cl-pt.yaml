@@ -1,0 +1,11 @@
+name: A2CL-PT
+kind: software
+year: 2020
+summary: Finds when activities start and end in a video from video-level labels alone. On THUMOS14 it reached an average mAP of 30.0%, against 27.9% for the best earlier weakly supervised method (ECCV 2020).
+topics:
+  - video
+links:
+  - label: Code
+    href: https://github.com/MichiganCOG/A2CL-PT
+  - label: Paper
+    href: https://arxiv.org/abs/2007.06643

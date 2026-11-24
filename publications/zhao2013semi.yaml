@@ -1,0 +1,15 @@
+title: Semi-Automatic Brain Tumor Segmentation by Constrained MRFs using Structural Trajectories
+authors:
+  - L. Zhao
+  - W. Wu
+  - J. J. Corso
+year: 2013
+type: conference
+venue: International Conference on Medical Image Computing and Computer-Assisted Intervention
+venueShort: MICCAI
+topics:
+  - health
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/lzhao_miccai2013_structraj.pdf
+  doi: https://doi.org/10.1007/978-3-642-40760-4_71

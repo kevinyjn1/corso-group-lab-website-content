@@ -1,0 +1,16 @@
+title: Estimating Human Dynamics On-the-Fly Using Monocular Video for Pose Estimation
+authors:
+  - P. Agarwal
+  - S. Kumar
+  - J. Ryde
+  - J. J. Corso
+  - V. N. Krovi
+year: 2012
+type: conference
+venue: 'Robotics: Science and Systems'
+venueShort: RSS
+topics:
+  - video
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/agarwal_RSS2012.pdf
+  doi: https://doi.org/10.15607/RSS.2012.VIII.001

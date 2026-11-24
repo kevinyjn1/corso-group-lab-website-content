@@ -1,0 +1,15 @@
+title: 'TASED-Net: Temporally-Aggregating Spatial Encoder-Decoder Network for Video Saliency Detection'
+authors:
+  - K. Min
+  - J. J. Corso
+year: 2019
+type: conference
+venue: IEEE International Conference on Computer Vision
+venueShort: ICCV
+topics:
+  - video
+featured: true
+links:
+  pdf: https://openaccess.thecvf.com/content_ICCV_2019/papers/Min_TASED-Net_Temporally-Aggregating_Spatial_Encoder-Decoder_Network_for_Video_Saliency_Detection_ICCV_2019_paper.pdf
+  arxiv: https://arxiv.org/abs/1908.05786
+  doi: https://doi.org/10.1109/ICCV.2019.00248

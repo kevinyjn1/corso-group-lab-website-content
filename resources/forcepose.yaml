@@ -1,0 +1,11 @@
+name: ForcePose
+kind: dataset
+year: 2022
+summary: Eight people doing five movements, effectively 1,344 videos, with pose detections and synchronized force plate data, for estimating ground reaction forces from video alone.
+topics:
+  - video
+links:
+  - label: Code
+    href: https://github.com/MichiganCOG/ForcePose
+  - label: Paper
+    href: https://arxiv.org/abs/2207.05845

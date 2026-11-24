@@ -1,0 +1,12 @@
+title: Tukey-Inspired Video Object Segmentation
+authors:
+  - B. A. Griffin
+  - J. J. Corso
+year: 2019
+type: conference
+venue: IEEE Winter Conference on Applications of Computer Vision
+venueShort: WACV
+topics:
+  - video
+links:
+  arxiv: https://arxiv.org/abs/1811.07958

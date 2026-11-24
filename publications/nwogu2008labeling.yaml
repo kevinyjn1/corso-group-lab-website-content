@@ -1,0 +1,13 @@
+title: Labeling Irregular Graphs with Belief Propagation
+authors:
+  - I. Nwogu
+  - J. J. Corso
+year: 2008
+type: conference
+venue: International Workshop on Combinatorial Image Analysis
+venueShort: IWCIA
+topics:
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/iwcia2008_bp.pdf
+  doi: https://doi.org/10.1007/978-3-540-78275-9_26

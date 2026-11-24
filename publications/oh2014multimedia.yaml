@@ -1,0 +1,21 @@
+title: Multimedia Event Detection with Multimodal Feature Fusion and Temporal Concept Localization
+authors:
+  - S. Oh
+  - S. McCloskey
+  - I. Kim
+  - A. Vahdat
+  - K. Cannons
+  - H. Hajimirsadeghi
+  - G. Mori
+  - A. G. A. Perera
+  - M. Pandey
+  - J. J. Corso
+year: 2014
+type: journal
+venue: Machine Vision and Applications
+venueShort: MVA
+topics:
+  - video
+  - learning
+links:
+  doi: https://doi.org/10.1007/s00138-013-0525-x

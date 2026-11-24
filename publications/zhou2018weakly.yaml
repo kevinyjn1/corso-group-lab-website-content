@@ -1,0 +1,15 @@
+title: Weakly-Supervised Video Object Grounding from Text by Loss Weighting and Object Interaction
+authors:
+  - L. Zhou
+  - N. Louis
+  - J. J. Corso
+year: 2018
+type: conference
+venue: British Machine Vision Conference
+venueShort: BMVC
+topics:
+  - video
+  - language
+links:
+  pdf: http://bmvc2018.org/contents/papers/0070.pdf
+  arxiv: https://arxiv.org/abs/1805.02834

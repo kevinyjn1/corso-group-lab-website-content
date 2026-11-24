@@ -1,0 +1,13 @@
+order: 5
+title: AI for Health & Surgery
+short: Health
+summary: From brain tumor segmentation to the operating room and the ultrasound probe.
+body:
+  - Medicine produces enormous amounts of visual data, and much of it is read by a small number of experts under time pressure. The group has worked with clinicians for two decades to make that data easier to quantify.
+  - Early work developed multilevel and graph-based methods for segmenting brain tumors and subcortical structures, labeling the lumbar spine, and reconstructing computed tomography on GPUs. Surgical video runs through the work from the start, from tracking the beating heart and da Vinci tools in 2004 and 2005 to tracking surgeons' hands in recorded operations in 2023, and the group is part of a study protocol for video-based assessment of technical and non-technical skill in cardiac surgery. Current projects build SurgAtlas, 2,391 hours of public surgical video across 18 specialties with captions and questions, and EchoVQA, 74,819 expert-reviewed questions and answers on 14,299 heart ultrasound images, including how to move the probe toward a diagnostic view.
+threads:
+  - Surgical video understanding
+  - Hand and tool tracking in surgical video
+  - Point-of-care echocardiography
+  - Brain tumor and neuroimaging segmentation
+  - Computer-aided diagnosis of the spine

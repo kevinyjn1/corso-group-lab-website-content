@@ -1,0 +1,11 @@
+name: TASED-Net
+kind: software
+year: 2019
+summary: A temporally aggregating spatial encoder-decoder network for video saliency detection (ICCV 2019).
+topics:
+  - video
+links:
+  - label: Paper
+    href: https://arxiv.org/abs/1908.05786
+  - label: Code
+    href: https://github.com/MichiganCOG/TASED-Net

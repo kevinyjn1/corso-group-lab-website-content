@@ -1,0 +1,17 @@
+title: Are Actor and Action Semantics Retained in Video Supervoxel Segmentation?
+authors:
+  - C. Xu
+  - R. F. Doell
+  - S. J. Hanson
+  - C. Hanson
+  - J. J. Corso
+year: 2013
+type: conference
+venue: IEEE International Conference on Semantic Computing
+venueShort: ICSC
+topics:
+  - video
+  - human
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/jcorso_icsc2013_SVXhumanstudy.pdf
+  doi: https://doi.org/10.1109/ICSC.2013.56

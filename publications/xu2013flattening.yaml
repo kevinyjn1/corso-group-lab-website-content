@@ -1,0 +1,17 @@
+title: Flattening Supervoxel Hierarchies by the Uniform Entropy Slice
+authors:
+  - C. Xu
+  - S. Whitt
+  - J. J. Corso
+year: 2013
+type: conference
+venue: IEEE International Conference on Computer Vision
+venueShort: ICCV
+topics:
+  - video
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/jcorso_ICCV2013_hieflat.pdf
+  doi: https://doi.org/10.1109/ICCV.2013.279
+  project: https://web.eecs.umich.edu/~jjcorso/r/supervoxels
+  poster: https://web.eecs.umich.edu/~jjcorso/pubs/jcorso_iccv2013_hieflat_poster.pdf
+  video: https://youtu.be/BIPLRljS0d8

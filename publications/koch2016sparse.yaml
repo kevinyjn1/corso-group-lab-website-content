@@ -1,0 +1,12 @@
+title: Sparse Factorization Layers for Neural Networks with Limited Supervision
+authors:
+  - P. Koch
+  - J. J. Corso
+year: 2016
+type: preprint
+venue: arXiv preprint
+venueShort: arXiv
+topics:
+  - learning
+links:
+  arxiv: https://arxiv.org/abs/1612.04468

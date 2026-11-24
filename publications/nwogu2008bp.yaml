@@ -1,0 +1,13 @@
+title: '(BP)²: Beyond Pairwise Belief Propagation Labeling by Approximating Kikuchi Free Energies'
+authors:
+  - I. Nwogu
+  - J. J. Corso
+year: 2008
+type: conference
+venue: IEEE Conference on Computer Vision and Pattern Recognition
+venueShort: CVPR
+topics:
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/inwogu_CVPR2008.pdf
+  doi: https://doi.org/10.1109/CVPR.2008.4587371

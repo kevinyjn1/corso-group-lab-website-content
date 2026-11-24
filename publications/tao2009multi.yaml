@@ -1,0 +1,20 @@
+title: Multi-level Ground Glass Nodule Detection and Segmentation in CT Lung Images
+authors:
+  - Y. Tao
+  - L. Lu
+  - M. Dewan
+  - A. Y. C. Chen
+  - J. J. Corso
+  - J. Xuan
+  - M. Salganicoff
+  - A. Krishnan
+year: 2009
+type: conference
+venue: International Conference on Medical Image Computing and Computer-Assisted Intervention
+venueShort: MICCAI
+topics:
+  - health
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/miccai2009_ggn.pdf
+  doi: https://doi.org/10.1007/978-3-642-04271-3_87

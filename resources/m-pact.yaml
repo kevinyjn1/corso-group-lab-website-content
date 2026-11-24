@@ -1,0 +1,11 @@
+name: M-PACT
+kind: software
+year: 2018
+summary: A TensorFlow platform for repeatable activity classification research, with shared pipelines for training and evaluating video models.
+topics:
+  - video
+links:
+  - label: Code
+    href: https://github.com/MichiganCOG/M-PACT
+  - label: Paper
+    href: https://arxiv.org/abs/1804.05879

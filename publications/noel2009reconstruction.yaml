@@ -1,0 +1,17 @@
+title: Reconstruction from a Flexible Number of Projections in Cone-Beam Computed Tomography via Active Shape Models
+authors:
+  - P. B. Noël
+  - J. J. Corso
+  - J. Xu
+  - K. R. Hoffmann
+  - S. Schafer
+  - A. Walczak
+year: 2009
+type: conference
+venue: SPIE Conference on Medical Imaging
+venueShort: SPIE
+topics:
+  - health
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/spiemi2009_reconstruction.pdf
+  doi: https://doi.org/10.1117/12.811751

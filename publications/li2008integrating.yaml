@@ -1,0 +1,16 @@
+title: Integrating Minutiae Based Fingerprint Matching with Local Mutual Information
+authors:
+  - J. Li
+  - S. Tulyakov
+  - F. Farooq
+  - J. J. Corso
+  - V. Govindaraju
+year: 2008
+type: conference
+venue: International Conference on Pattern Recognition
+venueShort: ICPR
+topics:
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/icpr2008_fingerprint.pdf
+  doi: https://doi.org/10.1109/ICPR.2008.4761888

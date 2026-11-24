@@ -1,0 +1,14 @@
+title: A Weakly Supervised Multi-task Ranking Framework for Actor-Action Semantic Segmentation
+authors:
+  - Y. Yan
+  - C. Xu
+  - D. Cai
+  - J. J. Corso
+year: 2020
+type: journal
+venue: International Journal of Computer Vision
+venueShort: IJCV
+topics:
+  - video
+links:
+  doi: https://doi.org/10.1007/s11263-019-01244-7

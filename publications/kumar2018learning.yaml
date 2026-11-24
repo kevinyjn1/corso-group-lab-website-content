@@ -1,0 +1,16 @@
+title: Learning Compositional Sparse Bimodal Models
+authors:
+  - S. Kumar
+  - V. Dhiman
+  - P. Koch
+  - J. J. Corso
+year: 2018
+type: journal
+venue: IEEE Transactions on Pattern Analysis and Machine Intelligence
+venueShort: TPAMI
+topics:
+  - language
+  - learning
+links:
+  doi: https://doi.org/10.1109/TPAMI.2017.2693987
+  code: https://bitbucket.org/surenkum/bimodal_sparse

@@ -1,0 +1,14 @@
+title: Dictionary Transfer for Image Denoising via Domain Adaptation
+authors:
+  - G. Chen
+  - C. Xiong
+  - J. J. Corso
+year: 2012
+type: conference
+venue: IEEE International Conference on Image Processing
+venueShort: ICIP
+topics:
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/jcorso_ICIP2012.pdf
+  doi: https://doi.org/10.1109/ICIP.2012.6467078

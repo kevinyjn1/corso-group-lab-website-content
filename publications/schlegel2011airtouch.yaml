@@ -1,0 +1,16 @@
+title: 'AirTouch: Interacting with Computer Systems at a Distance'
+authors:
+  - D. R. Schlegel
+  - A. Y. C. Chen
+  - C. Xiong
+  - J. A. Delmerico
+  - J. J. Corso
+year: 2011
+type: conference
+venue: 'IEEE Winter Vision Meetings: Workshop on Applications of Computer Vision'
+venueShort: WACV
+topics:
+  - human
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/wacv2011_airtouch.pdf
+  doi: https://doi.org/10.1109/WACV.2011.5711476

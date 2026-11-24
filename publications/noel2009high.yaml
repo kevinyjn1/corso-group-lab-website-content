@@ -1,0 +1,17 @@
+title: High Contrast Artifact Reduction in Cone Beam Computed Tomography by Using Geometric Techniques
+authors:
+  - P. B. Noël
+  - J. Xu
+  - K. R. Hoffmann
+  - J. J. Corso
+  - S. Schafer
+  - A. Walczak
+year: 2009
+type: conference
+venue: SPIE Conference on Medical Imaging
+venueShort: SPIE
+topics:
+  - health
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/spiemi2009_artifact.pdf
+  doi: https://doi.org/10.1117/12.811679

@@ -1,0 +1,12 @@
+title: Propagating Multi-class Pixel Labels Throughout Video Frames
+authors:
+  - A. Y. C. Chen
+  - J. J. Corso
+year: 2010
+type: report
+venue: Western New York Image Processing Workshop
+topics:
+  - video
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/wnyipw2010_video.pdf
+  doi: https://doi.org/10.1109/WNYIPW.2010.5649773

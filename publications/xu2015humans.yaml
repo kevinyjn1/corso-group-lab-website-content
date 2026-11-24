@@ -1,0 +1,18 @@
+title: Can Humans Fly? Action Understanding with Multiple Classes of Actors
+authors:
+  - C. Xu
+  - S.-H. Hsieh
+  - C. Xiong
+  - J. J. Corso
+year: 2015
+type: conference
+venue: IEEE Conference on Computer Vision and Pattern Recognition
+venueShort: CVPR
+topics:
+  - video
+featured: true
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/xu_corso_CVPR2015_A2D.pdf
+  doi: https://doi.org/10.1109/CVPR.2015.7298839
+  data: https://web.eecs.umich.edu/~jjcorso/r/a2d
+  poster: https://web.eecs.umich.edu/~jjcorso/pubs/xu_corso_CVPR2015_A2D_poster.pdf

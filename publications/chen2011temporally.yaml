@@ -1,0 +1,16 @@
+title: Temporally Consistent Multi-Class Video-Object Segmentation with the Video Graph-Shifts Algorithm
+authors:
+  - A. Y. C. Chen
+  - J. J. Corso
+year: 2011
+type: conference
+venue: IEEE Workshop on Motion and Video Computing
+venueShort: WMVC
+topics:
+  - video
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/wmvc2011_vgs.pdf
+  doi: https://doi.org/10.1109/WACV.2011.5711561
+  code: https://web.eecs.umich.edu/~jjcorso/r/files/labelpropagation.zip
+  project: https://web.eecs.umich.edu/~jjcorso/r/labelprop.html

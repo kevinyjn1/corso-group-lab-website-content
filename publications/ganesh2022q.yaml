@@ -1,0 +1,13 @@
+title: 'Q-TART: Quickly Training for Adversarial Robustness and in-Transferability'
+authors:
+  - M. R. Ganesh
+  - S. Y. Sekeh
+  - J. J. Corso
+year: 2022
+type: preprint
+venue: arXiv preprint
+venueShort: arXiv
+topics:
+  - learning
+links:
+  arxiv: https://arxiv.org/abs/2204.07024

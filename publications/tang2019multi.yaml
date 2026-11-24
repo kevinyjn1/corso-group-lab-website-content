@@ -1,0 +1,19 @@
+title: Multi-Channel Attention Selection GAN with Cascaded Semantic Guidance for Cross-View Image Translation
+authors:
+  - H. Tang
+  - D. Xu
+  - N. Sebe
+  - Y. Wang
+  - J. J. Corso
+  - Y. Yan
+year: 2019
+type: conference
+venue: IEEE Conference on Computer Vision and Pattern Recognition
+venueShort: CVPR
+note: Oral
+topics:
+  - learning
+links:
+  pdf: https://openaccess.thecvf.com/content_CVPR_2019/papers/Tang_Multi-Channel_Attention_Selection_GAN_With_Cascaded_Semantic_Guidance_for_Cross-View_CVPR_2019_paper.pdf
+  arxiv: https://arxiv.org/abs/1904.06807
+  doi: https://doi.org/10.1109/CVPR.2019.00252

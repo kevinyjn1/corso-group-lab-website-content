@@ -1,0 +1,18 @@
+title: Towards Automatic Learning of Procedures from Web Instructional Videos
+authors:
+  - L. Zhou
+  - C. Xu
+  - J. J. Corso
+year: 2018
+type: conference
+venue: AAAI Conference on Artificial Intelligence
+venueShort: AAAI
+topics:
+  - video
+  - language
+featured: true
+links:
+  arxiv: https://arxiv.org/abs/1703.09788
+  doi: https://doi.org/10.1609/aaai.v32i1.12342
+  code: https://github.com/LuoweiZhou/ProcNets-YouCook2
+  data: http://youcook2.eecs.umich.edu/

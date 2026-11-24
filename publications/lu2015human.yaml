@@ -1,0 +1,14 @@
+title: Human Action Segmentation with Hierarchical Supervoxel Consistency
+authors:
+  - J. Lu
+  - R. Xu
+  - J. J. Corso
+year: 2015
+type: conference
+venue: IEEE Conference on Computer Vision and Pattern Recognition
+venueShort: CVPR
+topics:
+  - video
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/lu_corso_CVPR2015_actionvoxel.pdf
+  doi: https://doi.org/10.1109/CVPR.2015.7299000

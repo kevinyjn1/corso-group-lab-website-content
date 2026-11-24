@@ -1,0 +1,15 @@
+title: Image Segmentation Through Energy Minimization Based Subspace Fusion
+authors:
+  - J. J. Corso
+  - M. Dewan
+  - G. D. Hager
+year: 2004
+type: conference
+venue: International Conference on Pattern Recognition
+venueShort: ICPR
+topics:
+  - video
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/jcorso_ICPR2004.pdf
+  doi: https://doi.org/10.1109/ICPR.2004.1334076

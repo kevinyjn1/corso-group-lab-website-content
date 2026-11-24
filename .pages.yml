@@ -1,0 +1,505 @@
+# The forms the group edits its website with, in Pages CMS (https://app.pagescms.org).
+#
+# Each entry below is one list in the editor's sidebar, and each field is one box in a form.
+# Saving a form writes one small file in this repository, and the site is rebuilt from them.
+#
+# This file only shapes the forms. It is not what keeps the site safe: before anything is
+# published, the site's own code checks every file here again (see README.md).
+
+settings:
+  commit:
+    # Each saved change records who made it.
+    identity: user
+    templates:
+      create: 'Add {path} ({userName})'
+      update: 'Update {path} ({userName})'
+      delete: 'Remove {path} ({userName})'
+      rename: 'Rename {oldPath} to {newPath} ({userName})'
+
+components:
+  # A web address. The site refuses anything else, so the form says so first. (A pattern is
+  # checked even when a box is empty, so each one here also allows an empty box.)
+  link:
+    type: string
+    pattern:
+      regex: '^(https?://\S+)?$'
+      message: 'A web address that starts with https:// or http://'
+  # The six research areas a paper or a release can belong to.
+  topics:
+    type: select
+    label: Research areas
+    description: 'Every area this belongs to. The first one chosen is its main area.'
+    required: true
+    options:
+      multiple: true
+      min: 1
+      values:
+        - { value: video, label: 'Video & Scene Understanding' }
+        - { value: language, label: 'Vision & Language' }
+        - { value: robotics, label: 'Robot Perception & Embodied AI' }
+        - { value: human, label: 'Human-AI Collaboration' }
+        - { value: health, label: 'AI for Health & Surgery' }
+        - { value: learning, label: 'Learning, Data & Generation' }
+
+content:
+  - name: publications
+    label: Publications
+    type: collection
+    path: publications
+    format: yaml
+    filename: '{primary}.yaml'
+    operations:
+      # A paper's file name is its address on the site, so it stays as first written.
+      rename: false
+    view:
+      primary: title
+      fields: [title, year, venueShort, type]
+      sort: [year, title]
+      search: [title, authors, venue, venueShort]
+      default:
+        sort: year
+        order: desc
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: authors
+        label: Authors
+        type: string
+        list:
+          min: 1
+        required: true
+        description: 'One author per row, in the order on the paper, written like "J. J. Corso".'
+      - name: year
+        label: Year
+        type: number
+        required: true
+        options:
+          min: 1990
+          max: 2100
+      - name: date
+        label: Month
+        type: string
+        description: 'Optional. Year and month, like 2026-06. It orders the papers within a year, newest first.'
+        pattern:
+          regex: '^(\d{4}-\d{2})?$'
+          message: 'Year and month, like 2026-06'
+      - name: type
+        label: Kind of publication
+        type: select
+        required: true
+        options:
+          values:
+            - { value: conference, label: Conference paper }
+            - { value: journal, label: Journal article }
+            - { value: preprint, label: Preprint }
+            - { value: report, label: Technical report }
+            - { value: chapter, label: Book chapter }
+            - { value: thesis, label: Thesis }
+      - name: venue
+        label: Venue
+        type: string
+        required: true
+        description: 'The full name, without the year or page numbers. For a preprint: arXiv.'
+      - name: venueShort
+        label: Venue, short
+        type: string
+        description: 'The usual abbreviation, such as CVPR. Shown as a badge.'
+      - name: note
+        label: Distinction
+        type: string
+        description: 'Optional, and only what the venue itself announced: Oral, Best Paper Award.'
+      - name: topics
+        component: topics
+      - name: featured
+        label: Featured
+        type: boolean
+        description: 'Featured papers are listed first in their research area.'
+      - name: links
+        label: Links
+        type: object
+        description: 'Where the paper can be read or used. Fill in the ones that exist; an empty box is not shown.'
+        fields:
+          - { name: arxiv, label: arXiv, component: link }
+          - { name: doi, label: DOI, component: link, description: 'The full address, starting with https://doi.org/' }
+          - { name: pdf, label: PDF, component: link }
+          - { name: link, label: Publisher page, component: link }
+          - { name: project, label: Project page, component: link }
+          - { name: code, label: Code, component: link }
+          - { name: data, label: Data, component: link }
+          - { name: video, label: Video, component: link }
+          - { name: slides, label: Slides, component: link }
+          - { name: poster, label: Poster, component: link }
+
+  - name: people
+    label: People
+    type: collection
+    path: people
+    format: yaml
+    filename: '{primary}.yaml'
+    operations:
+      rename: false
+    view:
+      primary: name
+      fields: [name, role, status, year]
+      sort: [name, year]
+      search: [name, role, affiliation]
+      default:
+        sort: name
+        order: asc
+    fields:
+      - name: name
+        label: Name
+        type: string
+        required: true
+      - name: role
+        label: Role
+        type: select
+        required: true
+        options:
+          values:
+            - { value: phd, label: Ph.D. student }
+            - { value: ms, label: "Master's student" }
+            - { value: undergrad, label: Undergraduate researcher }
+            - { value: postdoc, label: Postdoctoral fellow }
+            - { value: staff, label: Staff }
+            - { value: collaborator, label: Collaborator }
+            - { value: pi, label: Principal investigator }
+      - name: status
+        label: In the group now?
+        type: select
+        required: true
+        description: 'When someone graduates or leaves, change this to "Alumni" and fill in the year.'
+        options:
+          values:
+            - { value: current, label: Current member }
+            - { value: alumni, label: Alumni }
+      - name: institution
+        label: University
+        type: select
+        description: 'Where they were in the group. Leave empty for Michigan.'
+        options:
+          values:
+            - { value: michigan, label: University of Michigan }
+            - { value: buffalo, label: SUNY at Buffalo }
+      - name: program
+        label: Degree program
+        type: string
+        description: 'For Michigan students: ROB, ECE, or CSE.'
+      - name: year
+        label: Year
+        type: number
+        description: 'The year they graduated, or for a current student the year they expect to.'
+        options:
+          min: 1990
+          max: 2100
+      - name: affiliation
+        label: Affiliation
+        type: string
+        description: 'For a collaborator: where they are based, such as "Michigan CSE" or "Porsche".'
+      - name: focus
+        label: Research focus
+        type: string
+      - name: thesis
+        label: Thesis title
+        type: string
+        description: 'For Ph.D. alumni, as on the thesis itself.'
+      - name: firstPosition
+        label: First position after the degree
+        type: string
+        description: 'Title, then employer: "Research Scientist, Bosch AI". Only what a public page states.'
+      - name: currentPosition
+        label: Later position
+        type: string
+        description: 'Optional. Leave empty unless a public page states it.'
+      - name: note
+        label: Note
+        type: string
+        description: 'Optional, such as "Jointly advised with Prof. Honglak Lee".'
+      - name: url
+        label: Personal page
+        component: link
+
+  - name: media
+    label: Talks, press, and essays
+    type: collection
+    path: media
+    format: yaml
+    filename: '{primary}.yaml'
+    operations:
+      rename: false
+    view:
+      primary: title
+      fields: [title, kind, outlet, date]
+      sort: [date, title]
+      search: [title, outlet, summary]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+        description: "The item's own title, without the site's name after it."
+      - name: kind
+        label: Kind
+        type: select
+        required: true
+        options:
+          values:
+            - { value: video, label: Talk or video }
+            - { value: podcast, label: Podcast or interview }
+            - { value: press, label: Press article }
+            - { value: essay, label: Essay or op-ed }
+      - name: outlet
+        label: Where it appeared
+        type: string
+        required: true
+        description: 'The channel, show, or publication.'
+      - name: date
+        label: Date
+        type: string
+        description: 'As the source gives it: 2026, 2026-08, or 2026-08-26. Leave empty if it gives none.'
+        pattern:
+          regex: '^(\d{4}(-\d{2}){0,2})?$'
+          message: 'A year (2026), a month (2026-08), or a day (2026-08-26)'
+      - name: url
+        label: Link
+        component: link
+        required: true
+        description: 'The address of the item itself, with nothing after a "?" that tracks who shared it.'
+      - name: youtubeId
+        label: YouTube id
+        type: string
+        description: 'For a YouTube video, the 11 characters after "v=" in its address. The video then plays on the page.'
+        pattern:
+          regex: '^([A-Za-z0-9_-]{11})?$'
+          message: 'The 11 characters after "v=" in the address'
+      - name: summary
+        label: What it is about
+        type: text
+        description: 'One sentence, ending with a full stop. Leave empty if it would only repeat the title.'
+      - name: featured
+        label: Featured place
+        type: number
+        description: 'Optional. Featured items lead the Media page and the home page: 1 is first, then 2, 3, 4.'
+        options:
+          min: 1
+      - name: project
+        label: Project
+        type: select
+        description: 'Choose VIGIL to list the item on the VIGIL page as well.'
+        options:
+          values:
+            - { value: vigil, label: VIGIL }
+
+  - name: resources
+    label: Code and data
+    type: collection
+    path: resources
+    format: yaml
+    filename: '{primary}.yaml'
+    operations:
+      rename: false
+    view:
+      primary: name
+      fields: [name, kind, year]
+      sort: [year, name]
+      search: [name, summary]
+      default:
+        sort: year
+        order: desc
+    fields:
+      - name: name
+        label: Name
+        type: string
+        required: true
+      - name: kind
+        label: Kind
+        type: select
+        required: true
+        options:
+          values:
+            - { value: dataset, label: Dataset }
+            - { value: software, label: Software }
+      - name: year
+        label: Year released
+        type: number
+        required: true
+        options:
+          min: 1990
+          max: 2100
+      - name: summary
+        label: What it is
+        type: text
+        required: true
+        description: 'Two sentences at most. Give sizes as the release itself states them.'
+      - name: topics
+        component: topics
+      - name: featured
+        label: Show on the home page
+        type: boolean
+      - name: awards
+        label: Awards
+        type: string
+        list: true
+        description: 'Optional, one per row, as the awarding body names them.'
+      - name: links
+        label: Links
+        type: object
+        required: true
+        description: 'One to three. The first is the main link.'
+        list:
+          min: 1
+          max: 3
+          collapsible:
+            summary: '{label}'
+        fields:
+          - name: label
+            label: Words shown
+            type: string
+            required: true
+            description: 'Such as "Project page", "GitHub", or "Paper".'
+          - name: href
+            label: Address
+            component: link
+            required: true
+
+  - name: courses
+    label: Courses
+    type: collection
+    path: courses
+    format: yaml
+    filename: '{primary}.yaml'
+    operations:
+      rename: false
+    view:
+      primary: code
+      fields: [code, title, institution, current]
+      sort: [order, code]
+      search: [code, title]
+      default:
+        sort: order
+        order: asc
+    fields:
+      - name: code
+        label: Course number
+        type: string
+        required: true
+        description: 'Such as "ROB 599" or "EECS 504".'
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: institution
+        label: University
+        type: select
+        required: true
+        options:
+          values:
+            - { value: michigan, label: University of Michigan }
+            - { value: buffalo, label: SUNY at Buffalo }
+      - name: order
+        label: Place in the list
+        type: number
+        required: true
+        description: 'Courses are listed from the lowest number up. Use a number between two others to place a course between them.'
+      - name: terms
+        label: Terms taught
+        type: string
+        list:
+          min: 1
+        required: true
+        description: 'One per row, newest first: "Fall 2026".'
+      - name: current
+        label: Being taught this term
+        type: boolean
+        description: 'The course being taught now leads the Teaching page. Turn this off when the term ends.'
+      - name: with
+        label: Taught with
+        type: string
+      - name: summary
+        label: What the course covers
+        type: text
+      - name: url
+        label: Course page
+        component: link
+      - name: urlTerm
+        label: Term the course page belongs to
+        type: string
+        description: 'If the course page is for one term only, write that term exactly as in the list above. The link is then put on that term.'
+      - name: links
+        label: More links
+        type: object
+        description: 'Optional, for a course being taught now: readings or related writing.'
+        list:
+          collapsible:
+            summary: '{label}'
+        fields:
+          - name: label
+            label: Words shown
+            type: string
+            required: true
+          - name: href
+            label: Address
+            component: link
+            required: true
+
+  - name: areas
+    label: Research areas
+    type: collection
+    path: areas
+    format: yaml
+    operations:
+      # The six areas are part of the site's design. Their text can change; the set cannot.
+      create: false
+      rename: false
+      delete: false
+    view:
+      primary: title
+      fields: [title, order]
+      sort: [order]
+      default:
+        sort: order
+        order: asc
+    fields:
+      - name: title
+        label: Name
+        type: string
+        required: true
+      - name: short
+        label: Short name
+        type: string
+        required: true
+        description: 'For filters and menus, where the full name does not fit.'
+      - name: summary
+        label: In one sentence
+        type: text
+        required: true
+        description: 'Shown on the home page card and at the head of the area.'
+      - name: body
+        label: Description
+        type: text
+        list:
+          min: 1
+        required: true
+        description: 'One paragraph per row. Every result stated here must be in one of the group''s papers.'
+      - name: threads
+        label: What the group works on in this area
+        type: string
+        list:
+          min: 1
+        required: true
+        description: 'Short phrases, one per row.'
+      - name: releases
+        label: Releases to list under this area
+        type: string
+        list: true
+        description: 'Optional. File names from "Code and data", without ".yaml", in the order to show them (for example youcook2). Leave empty to list the five newest.'
+      - name: order
+        label: Place on the Research page
+        type: number
+        required: true
+        readonly: true

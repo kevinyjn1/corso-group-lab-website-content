@@ -1,0 +1,11 @@
+name: MINT
+kind: software
+year: 2020
+summary: Deep network compression that trims neurons using the mutual information between adjacent layers.
+topics:
+  - learning
+links:
+  - label: Code
+    href: https://github.com/MichiganCOG/MINT
+  - label: Paper
+    href: https://arxiv.org/abs/2003.08472

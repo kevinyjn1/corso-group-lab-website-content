@@ -1,0 +1,16 @@
+title: 'Adaptive Quantization for Hashing: An Information-Based Approach to Learning Binary Codes'
+authors:
+  - C. Xiong
+  - W. Chen
+  - G. Chen
+  - D. M. Johnson
+  - J. J. Corso
+year: 2014
+type: conference
+venue: SIAM International Conference on Data Mining
+venueShort: SDM
+topics:
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/cxiong_SDM2014_adahash.pdf
+  code: https://web.eecs.umich.edu/~jjcorso/pubs/AQH.zip

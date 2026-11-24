@@ -1,0 +1,13 @@
+title: Uncertainty Reduction for Active Image Clustering via a Hybrid Global-Local Uncertainty Model
+authors:
+  - C. Xiong
+  - D. M. Johnson
+  - J. J. Corso
+year: 2013
+type: conference
+venue: AAAI Conference on Artificial Intelligence (Late-Breaking Papers Track)
+venueShort: AAAI
+topics:
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/cxiong_AAAI2013_LBP_aic.pdf

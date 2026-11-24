@@ -1,0 +1,13 @@
+title: 'Maintaining Prior Distributions Across Evolving Eigenspaces: An Application to Portfolio Construction'
+authors:
+  - K. R. Keane
+  - J. J. Corso
+year: 2012
+type: conference
+venue: International Conference on Machine Learning and Applications
+venueShort: ICMLA
+topics:
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/keane_ICMLA2012.pdf
+  doi: https://doi.org/10.1109/ICMLA.2012.202

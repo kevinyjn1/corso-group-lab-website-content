@@ -1,0 +1,17 @@
+title: 'R4: Retrieval-Augmented Reasoning for Vision-Language Models in 4D Spatio-Temporal Space'
+authors:
+  - T. S. Sohn
+  - M. Dillitzer
+  - J. J. Corso
+  - E. Sax
+year: 2026
+date: 2026-06
+type: conference
+venue: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+venueShort: CVPR
+topics:
+  - language
+  - robotics
+  - video
+links:
+  arxiv: https://arxiv.org/abs/2512.15940

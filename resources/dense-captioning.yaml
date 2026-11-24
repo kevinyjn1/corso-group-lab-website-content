@@ -1,0 +1,12 @@
+name: Dense Video Captioning
+kind: software
+year: 2018
+summary: End-to-end dense video captioning with a masked transformer (CVPR 2018).
+topics:
+  - language
+  - video
+links:
+  - label: Paper
+    href: https://arxiv.org/abs/1804.00819
+  - label: Code
+    href: https://github.com/LuoweiZhou/densecap

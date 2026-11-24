@@ -1,0 +1,18 @@
+title: Building Facade Detection, Segmentation, and Parameter Estimation for Mobile Robot Localization and Guidance
+authors:
+  - J. A. Delmerico
+  - P. David
+  - J. J. Corso
+year: 2011
+type: conference
+venue: International Conference on Intelligent Robots and Systems
+venueShort: IROS
+topics:
+  - video
+  - robotics
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/IROS2011_facades.pdf
+  doi: https://doi.org/10.1109/IROS.2011.6094778
+  data: https://web.eecs.umich.edu/~jjcorso/r/gbs/files/CPStereoFacadeDataset.zip
+  project: https://web.eecs.umich.edu/~jjcorso/r/gbs/

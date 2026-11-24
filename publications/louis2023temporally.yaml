@@ -1,0 +1,20 @@
+title: Temporally Guided Articulated Hand Pose Tracking in Surgical Videos
+authors:
+  - N. Louis
+  - L. Zhou
+  - S. J. Yule
+  - R. D. Dias
+  - M. M. Manojlovich
+  - F. D. Pagani
+  - D. S. Likosky
+  - J. J. Corso
+year: 2023
+type: journal
+venue: International Journal of Computer Assisted Radiology and Surgery
+venueShort: IJCARS
+topics:
+  - health
+  - video
+links:
+  arxiv: https://arxiv.org/abs/2101.04281
+  doi: https://doi.org/10.1007/s11548-022-02761-6

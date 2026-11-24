@@ -1,0 +1,17 @@
+title: GPU-based Cone Beam Computed Tomography
+authors:
+  - P. B. Noël
+  - A. Walczak
+  - J. Xu
+  - J. J. Corso
+  - K. R. Hoffmann
+  - S. Schafer
+year: 2010
+type: journal
+venue: Computer Methods and Programs in Biomedicine
+venueShort: CMPB
+topics:
+  - health
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/cmpb2010_gpucbct.pdf
+  doi: https://doi.org/10.1016/j.cmpb.2009.08.006

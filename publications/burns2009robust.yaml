@@ -1,0 +1,13 @@
+title: Robust Unsupervised Segmentation of Degraded Document Images with Topic Models
+authors:
+  - T. J. Burns
+  - J. J. Corso
+year: 2009
+type: conference
+venue: IEEE Conference on Computer Vision and Pattern Recognition
+venueShort: CVPR
+topics:
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/cvpr2009_docs.pdf
+  doi: https://doi.org/10.1109/CVPR.2009.5206606

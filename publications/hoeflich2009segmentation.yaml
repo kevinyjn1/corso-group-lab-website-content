@@ -1,0 +1,14 @@
+title: Segmentation of 2D Gel Electrophoresis Spots using a Markov Random Field
+authors:
+  - C. S. Hoeflich
+  - J. J. Corso
+year: 2009
+type: conference
+venue: SPIE Conference on Medical Imaging
+venueShort: SPIE
+topics:
+  - health
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/hoeflich_SPIE2009.pdf
+  doi: https://doi.org/10.1117/12.811802

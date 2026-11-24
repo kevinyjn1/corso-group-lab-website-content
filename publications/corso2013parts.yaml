@@ -1,0 +1,14 @@
+title: Toward Parts-Based Scene Understanding with Pixel-Support Parts-Sparse Pictorial Structures
+authors:
+  - J. J. Corso
+year: 2013
+type: journal
+venue: Pattern Recognition Letters
+venueShort: PRL
+topics:
+  - video
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/jcorso_prlsuba2013_ps3_preprint.pdf
+  arxiv: https://arxiv.org/abs/1108.4079
+  doi: https://doi.org/10.1016/j.patrec.2012.04.004

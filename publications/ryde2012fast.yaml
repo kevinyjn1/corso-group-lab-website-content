@@ -1,0 +1,14 @@
+title: Fast Voxel Maps with Counting Bloom Filters
+authors:
+  - J. Ryde
+  - J. J. Corso
+year: 2012
+type: conference
+venue: International Conference on Intelligent Robots and Systems
+venueShort: IROS
+topics:
+  - robotics
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/ryde_IROS2012_bloom.pdf
+  doi: https://doi.org/10.1109/IROS.2012.6385984
+  code: https://launchpad.net/mrol

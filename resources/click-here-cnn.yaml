@@ -1,0 +1,12 @@
+name: Click-Here CNN
+kind: software
+year: 2017
+summary: Human-in-the-loop viewpoint estimation, where a keypoint located by a person guides the network (ICCV 2017).
+topics:
+  - human
+  - video
+links:
+  - label: Paper
+    href: https://arxiv.org/abs/1703.09859
+  - label: Code
+    href: https://github.com/rszeto/click-here-cnn

@@ -1,0 +1,15 @@
+title: On-line Hierarchy of General Linear Models for Selecting and Ranking the Best Predicted Protein Structures
+authors:
+  - H. Z. Girgis
+  - J. J. Corso
+  - D. Fischer
+year: 2009
+type: conference
+venue: IEEE Conference on Engineering in Medicine and Biology
+venueShort: EMBS
+topics:
+  - health
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/embs2009_girgis.pdf
+  doi: https://doi.org/10.1109/IEMBS.2009.5332706

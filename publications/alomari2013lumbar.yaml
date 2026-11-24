@@ -1,0 +1,15 @@
+title: Lumbar Spine Disc Herniation Diagnosis with a Joint Shape Model
+authors:
+  - R. S. Alomari
+  - J. J. Corso
+  - V. Chaudhary
+  - G. Dhillon
+year: 2013
+type: conference
+venue: MICCAI Workshop on Computational Spine Imaging
+venueShort: MICCAI Workshops
+topics:
+  - health
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/alomari_miccaiw2013.pdf
+  doi: https://doi.org/10.1007/978-3-319-07269-2_8

@@ -1,0 +1,29 @@
+title: 'GENIE TRECVID2011 Multimedia Event Detection: Late-Fusion Approaches to Combine Multiple Audio-Visual Features'
+authors:
+  - A. G. A. Perera
+  - S. Oh
+  - M. Leotta
+  - I. Kim
+  - B. Byun
+  - C.-H. Lee
+  - S. McCloskey
+  - J. Liu
+  - B. Miller
+  - Z. F. Huang
+  - A. Vahdat
+  - W. Yang
+  - G. Mori
+  - K. Tang
+  - D. Koller
+  - L. Fei-Fei
+  - K. Li
+  - G. Chen
+  - J. J. Corso
+  - Y. Fu
+  - R. K. Srihari
+year: 2011
+type: report
+venue: NIST TRECVID Workshop
+topics:
+  - video
+  - learning

@@ -1,0 +1,16 @@
+title: Clinical Evaluation of GPU-Based Cone Beam Computed Tomography
+authors:
+  - P. B. Noël
+  - A. Walczak
+  - K. R. Hoffmann
+  - J. Xu
+  - J. J. Corso
+  - S. Schafer
+year: 2008
+type: conference
+venue: High-Performance Medical Image Computing and Computer-Aided Intervention (HP-MICCAI)
+venueShort: MICCAI Workshops
+topics:
+  - health
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/hpmiccai2008_gpucbct.pdf

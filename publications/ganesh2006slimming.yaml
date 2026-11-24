@@ -1,0 +1,15 @@
+title: Slimming Neural Networks using Adaptive Connectivity Scores
+authors:
+  - M. R. Ganesh
+  - D. Blanchard
+  - J. J. Corso
+  - S. Y. Sekeh
+year: 2024
+type: journal
+venue: IEEE Transactions on Neural Networks and Learning Systems
+venueShort: TNNLS
+topics:
+  - learning
+links:
+  arxiv: https://arxiv.org/abs/2006.12463
+  doi: https://doi.org/10.1109/TNNLS.2022.3198580

@@ -1,0 +1,16 @@
+title: Automatic Collimation Detection in Digital Radiographs with the Directed Hough Transform and Learning-Based Edge Detection
+authors:
+  - L. Zhao
+  - Z. Peng
+  - K. Finkler
+  - A. Jerebko
+  - J. J. Corso
+  - X. S. Zhou
+year: 2015
+type: chapter
+venue: Patch-Based Techniques in Medical Imaging
+topics:
+  - health
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/zhao_patchbased_2015.pdf
+  doi: https://doi.org/10.1007/978-3-319-28194-0_9

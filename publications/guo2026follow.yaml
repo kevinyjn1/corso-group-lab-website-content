@@ -1,0 +1,24 @@
+title: 'Follow Your Heart: Landmark-Guided Transducer Pose Scoring for Point-of-Care Echocardiography'
+authors:
+  - Z. Guo
+  - J. N. Dong
+  - F. Bellos
+  - J. Hao
+  - E. J. MacKay
+  - T. Chan
+  - S. Goldfinger
+  - S. Reddy
+  - S. Vance
+  - J. J. Corso
+  - A. M. Pouch
+year: 2026
+date: 2026-04
+type: conference
+venue: IEEE International Symposium on Biomedical Imaging
+venueShort: ISBI
+note: Oral
+topics:
+  - health
+links:
+  arxiv: https://arxiv.org/abs/2603.27143
+  doi: https://doi.org/10.1109/ISBI61048.2026.11515776

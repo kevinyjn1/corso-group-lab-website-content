@@ -1,0 +1,15 @@
+title: Computer-aided Diagnosis of Lumbar Disc Pathology from Clinical Lower Spine MRI
+authors:
+  - R. S. Alomari
+  - J. J. Corso
+  - V. Chaudhary
+  - G. Dhillon
+year: 2010
+type: journal
+venue: International Journal of Computer Assisted Radiology and Surgery
+venueShort: IJCARS
+topics:
+  - health
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/alomari_ijcars2010.pdf
+  doi: https://doi.org/10.1007/s11548-009-0396-9

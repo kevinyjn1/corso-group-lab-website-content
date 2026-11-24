@@ -1,0 +1,16 @@
+title: Learning to Estimate External Forces of Human Motion in Video
+authors:
+  - N. Louis
+  - J. J. Corso
+  - T. N. Templin
+  - T. D. Eliason
+  - D. P. Nicolella
+year: 2022
+type: conference
+venue: ACM International Conference on Multimedia
+venueShort: ACM MM
+topics:
+  - video
+links:
+  arxiv: https://arxiv.org/abs/2207.05845
+  doi: https://doi.org/10.1145/3503161.3548377

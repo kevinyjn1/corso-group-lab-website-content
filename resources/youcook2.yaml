@@ -1,0 +1,15 @@
+name: YouCook2
+kind: dataset
+year: 2018
+featured: true
+summary: 2,000 untrimmed cooking videos from YouTube, 176 hours in all, covering 89 recipes. Every procedure step is annotated with temporal boundaries and an imperative English sentence.
+topics:
+  - language
+  - video
+links:
+  - label: Website
+    href: http://youcook2.eecs.umich.edu/
+  - label: Paper
+    href: https://arxiv.org/abs/1703.09788
+  - label: Code
+    href: https://github.com/LuoweiZhou/ProcNets-YouCook2

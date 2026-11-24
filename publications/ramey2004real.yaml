@@ -1,0 +1,16 @@
+title: Real-Time 3D Surface Tracking and Its Applications
+authors:
+  - N. A. Ramey
+  - J. J. Corso
+  - W. W. Lau
+  - D. Burschka
+  - G. D. Hager
+year: 2004
+type: conference
+venue: Workshop on Real-time 3D Sensors and Their Use at CVPR
+venueShort: CVPR Workshops
+topics:
+  - video
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/nramey_CVPRRT3D2004.pdf
+  doi: https://doi.org/10.1109/CVPR.2004.425

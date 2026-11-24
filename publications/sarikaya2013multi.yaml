@@ -1,0 +1,13 @@
+title: Multi-Atlas Brain MRI Segmentation with Multiway Cut
+authors:
+  - D. Sarikaya
+  - L. Zhao
+  - J. J. Corso
+year: 2013
+type: conference
+venue: MICCAI Grand Challenge on MR Brain Image Segmentation (MRBrainS13), The MIDAS Journal
+venueShort: MICCAI Workshops
+topics:
+  - health
+links:
+  doi: https://doi.org/10.54294/62rn24

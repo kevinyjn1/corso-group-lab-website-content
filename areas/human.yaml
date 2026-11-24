@@ -1,0 +1,13 @@
+order: 4
+title: Human-AI Collaboration & Task Guidance
+short: Human-AI
+summary: AI that works with people on physical tasks - asking for help, catching mistakes, and explaining them.
+body:
+  - Many of the tasks that matter most are done by people with their hands - cooking a meal, assembling a part, giving first aid. An assistant for that kind of work needs to follow along, notice when something goes wrong, say what went wrong and why, and know when its own judgment should not be trusted.
+  - 'The group studies both sides of that collaboration. One line asks when a model should defer or ask a person to try again, and how real users respond when it does. Another line builds the perception behind task guidance: detecting procedural mistakes in egocentric video and attributing them to the part of the instruction that was violated, the moment they became irreversible, and where they show in the frame. The group also measures whether AI guidance helps. In a 12-person study of four tasks, first attempts succeeded 70% of the time with an augmented reality agent, against 20% with no help.'
+threads:
+  - Mistake detection and attribution
+  - Assistive agents for procedural tasks
+  - Deferral, re-query, and hazy oracles
+  - Human-in-the-loop vision
+  - Gesture and vision-based interaction

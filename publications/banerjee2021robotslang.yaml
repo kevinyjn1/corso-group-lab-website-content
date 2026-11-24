@@ -1,0 +1,14 @@
+title: 'The RobotSlang Benchmark: Dialog-guided Robot Localization and Navigation'
+authors:
+  - S. Banerjee
+  - J. Thomason
+  - J. J. Corso
+year: 2020
+type: conference
+venue: Conference on Robot Learning
+venueShort: CoRL
+topics:
+  - language
+  - robotics
+links:
+  arxiv: https://arxiv.org/abs/2010.12639

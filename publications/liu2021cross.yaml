@@ -1,0 +1,17 @@
+title: Cross-View Exocentric to Egocentric Video Synthesis
+authors:
+  - G. Liu
+  - H. Tang
+  - H. Latapie
+  - J. J. Corso
+  - Y. Yan
+year: 2021
+type: conference
+venue: ACM International Conference on Multimedia
+venueShort: ACM MM
+topics:
+  - video
+  - learning
+links:
+  arxiv: https://arxiv.org/abs/2107.03120
+  doi: https://doi.org/10.1145/3474085.3475596

@@ -1,0 +1,20 @@
+title: Towards Effective Human-in-the-Loop Assistive AI Agents
+authors:
+  - F. Bellos
+  - Y. Li
+  - C. Shu
+  - R. Day
+  - J. M. Siskind
+  - J. J. Corso
+year: 2025
+date: 2025-10
+type: conference
+venue: IEEE/CVF International Conference on Computer Vision Workshops
+venueShort: ICCV Workshops
+topics:
+  - human
+  - language
+featured: true
+links:
+  arxiv: https://arxiv.org/abs/2507.18374
+  doi: https://doi.org/10.1109/ICCVW69036.2025.00264

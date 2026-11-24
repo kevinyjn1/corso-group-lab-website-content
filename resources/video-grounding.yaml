@@ -1,0 +1,12 @@
+name: Video Object Grounding
+kind: software
+year: 2018
+summary: Weakly supervised grounding of objects in video from text, using loss weighting and object interaction (BMVC 2018).
+topics:
+  - language
+  - video
+links:
+  - label: Paper
+    href: https://arxiv.org/abs/1805.02834
+  - label: Code
+    href: https://github.com/MichiganCOG/Video-Grounding-from-Text

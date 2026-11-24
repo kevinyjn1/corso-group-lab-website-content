@@ -1,0 +1,14 @@
+title: 'Coaction Discovery: Segmentation of Common Actions Across Multiple Videos'
+authors:
+  - C. Xiong
+  - J. J. Corso
+year: 2012
+type: conference
+venue: Multimedia Data Mining Workshop in Conjunction with the ACM SIGKDD Conference on Knowledge Discovery and Data Mining (MDMKDD)
+venueShort: KDD Workshops
+topics:
+  - video
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/cxiong_MDMKDD2012_coaction.pdf
+  doi: https://doi.org/10.1145/2343862.2343865

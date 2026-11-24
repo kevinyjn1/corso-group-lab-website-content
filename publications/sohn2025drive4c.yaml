@@ -1,0 +1,20 @@
+title: 'Drive4C: A Closed-Loop Benchmark on What Foundation Models Really Need to Be Capable of for Language-Guided Autonomous Driving'
+authors:
+  - T. S. Sohn
+  - M. Dillitzer
+  - J. Bach
+  - J. J. Corso
+  - T. Brühl
+  - R. Schwager
+  - T. D. Eberhardt
+  - E. Sax
+year: 2025
+date: 2025-06
+type: conference
+venue: IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops
+venueShort: CVPR Workshops
+topics:
+  - robotics
+  - language
+links:
+  pdf: https://openaccess.thecvf.com/content/CVPR2025W/WDFM-AD/papers/Sohn_Drive4C_A_Closed-Loop_Benchmark_on_What_Foundation_Models_Really_Need_CVPRW_2025_paper.pdf

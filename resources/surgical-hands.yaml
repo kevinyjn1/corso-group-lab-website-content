@@ -1,0 +1,12 @@
+name: Surgical Hands
+kind: dataset
+year: 2023
+summary: About 8,100 annotated hand poses in 76 clips from 28 publicly available surgical videos, released with the CondPose tracking method.
+topics:
+  - health
+  - video
+links:
+  - label: Code
+    href: https://github.com/MichiganCOG/Surgical_Hands_RELEASE
+  - label: Paper
+    href: https://arxiv.org/abs/2101.04281

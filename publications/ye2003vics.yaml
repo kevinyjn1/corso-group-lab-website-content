@@ -1,0 +1,15 @@
+title: 'VICs: A Modular Vision-Based HCI Framework'
+authors:
+  - G. Ye
+  - J. J. Corso
+  - D. Burschka
+  - G. D. Hager
+year: 2003
+type: conference
+venue: International Conference on Computer Vision Systems
+venueShort: ICVS
+topics:
+  - human
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/icvs03.pdf
+  doi: https://doi.org/10.1007/3-540-36592-3_25

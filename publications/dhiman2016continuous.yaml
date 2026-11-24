@@ -1,0 +1,15 @@
+title: A Continuous Occlusion Model for Road Scene Understanding
+authors:
+  - V. Dhiman
+  - Q.-H. Tran
+  - J. J. Corso
+  - M. Chandraker
+year: 2016
+type: conference
+venue: IEEE Conference on Computer Vision and Pattern Recognition
+venueShort: CVPR
+topics:
+  - video
+  - robotics
+links:
+  doi: https://doi.org/10.1109/CVPR.2016.469

@@ -1,0 +1,16 @@
+title: A Framework for Hand Gesture Recognition and Spotting Using Sub-gesture Modeling
+authors:
+  - M. R. Malgireddy
+  - J. J. Corso
+  - S. Setlur
+  - V. Govindaraju
+  - D. Mandalapu
+year: 2010
+type: conference
+venue: International Conference on Pattern Recognition
+venueShort: ICPR
+topics:
+  - human
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/icpr2010_gestures.pdf
+  doi: https://doi.org/10.1109/ICPR.2010.921

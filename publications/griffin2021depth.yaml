@@ -1,0 +1,14 @@
+title: Depth from Camera Motion and Object Detection
+authors:
+  - B. A. Griffin
+  - J. J. Corso
+year: 2021
+type: conference
+venue: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+venueShort: CVPR
+topics:
+  - robotics
+  - video
+links:
+  arxiv: https://arxiv.org/abs/2103.01468
+  doi: https://doi.org/10.1109/CVPR46437.2021.00145

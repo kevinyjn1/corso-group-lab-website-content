@@ -1,0 +1,20 @@
+order: 2
+releases:
+  - youcook2
+  - youcook
+  - activitynet-entities
+  - dense-captioning
+  - video-grounding
+  - unified-vlp
+title: Vision & Language
+short: Vision & Language
+summary: Describing what happens in a video, and locating each object the description names.
+body:
+  - Language is how people share what they see. A system that can describe a video, answer questions about it, or follow instructions grounded in it has to connect words to regions, moments, and procedures.
+  - 'The group began turning video into sentences in 2013, and built two datasets of YouTube cooking video: YouCook, 88 videos with human descriptions, and later YouCook2, 2,000 videos with every step timed and described, to study how procedures can be learned from web video. That line continued through dense video captioning and grounded video description, and on to vision-language pretraining for image captioning and question answering. Current work studies how large language and vision-language models reason about goals and procedures, when they should look again at the evidence, and whether they can judge AI-generated video with sound the way people do.'
+threads:
+  - Video captioning and dense description
+  - Grounding language in video
+  - Instructional video and procedure learning
+  - Vision-language pretraining
+  - Reasoning and evaluation for multimodal models

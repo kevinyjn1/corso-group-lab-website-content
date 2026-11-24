@@ -1,0 +1,15 @@
+title: A Temporally-Aware Interpolation Network for Video Frame Inpainting
+authors:
+  - R. Szeto
+  - X. Sun
+  - K. Lu
+  - J. J. Corso
+year: 2020
+type: journal
+venue: IEEE Transactions on Pattern Analysis and Machine Intelligence
+venueShort: TPAMI
+topics:
+  - video
+links:
+  arxiv: https://arxiv.org/abs/1803.07218
+  doi: https://doi.org/10.1109/TPAMI.2019.2951667

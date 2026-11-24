@@ -1,0 +1,16 @@
+title: Translating Related Words to Videos and Back through Latent Topics
+authors:
+  - P. Das
+  - R. K. Srihari
+  - J. J. Corso
+year: 2013
+type: conference
+venue: ACM International Conference on Web Search and Data Mining
+venueShort: WSDM
+topics:
+  - video
+  - language
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/wsdm13-das-final.pdf
+  doi: https://doi.org/10.1145/2433396.2433456

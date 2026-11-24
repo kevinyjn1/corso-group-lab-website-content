@@ -1,0 +1,12 @@
+title: 'Deep Net Triage: Analyzing the Importance of Network Layers via Structural Compression'
+authors:
+  - T. S. Nowak
+  - J. J. Corso
+year: 2018
+type: preprint
+venue: arXiv preprint
+venueShort: arXiv
+topics:
+  - learning
+links:
+  arxiv: https://arxiv.org/abs/1801.04651

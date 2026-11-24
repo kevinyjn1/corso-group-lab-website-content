@@ -1,0 +1,17 @@
+title: Actionness Ranking with Lattice Conditional Ordinal Random Fields
+authors:
+  - W. Chen
+  - C. Xiong
+  - R. Xu
+  - J. J. Corso
+year: 2014
+type: conference
+venue: IEEE Conference on Computer Vision and Pattern Recognition
+venueShort: CVPR
+topics:
+  - video
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/jcorso_CVPR2014_actionness.pdf
+  doi: https://doi.org/10.1109/CVPR.2014.101
+  code: https://web.eecs.umich.edu/~jjcorso/r/files/actionness_code_v1.tar.bz
+  poster: https://web.eecs.umich.edu/~jjcorso/pubs/jcorso_CVPR2014_actionness_poster.pdf

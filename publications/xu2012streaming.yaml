@@ -1,0 +1,16 @@
+title: Streaming Hierarchical Video Segmentation
+authors:
+  - C. Xu
+  - C. Xiong
+  - J. J. Corso
+year: 2012
+type: conference
+venue: European Conference on Computer Vision
+venueShort: ECCV
+topics:
+  - video
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/jcorso_ECCV2012_streamgbh.pdf
+  doi: https://doi.org/10.1007/978-3-642-33783-3_45
+  project: https://web.eecs.umich.edu/~jjcorso/r/supervoxels/

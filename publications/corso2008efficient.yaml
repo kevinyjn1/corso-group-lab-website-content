@@ -1,0 +1,17 @@
+title: Efficient Multilevel Brain Tumor Segmentation with Integrated Bayesian Model Classification
+authors:
+  - J. J. Corso
+  - E. Sharon
+  - S. Dube
+  - S. El-Saden
+  - U. Sinha
+  - A. L. Yuille
+year: 2008
+type: journal
+venue: IEEE Transactions on Medical Imaging
+venueShort: TMI
+topics:
+  - health
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/jcorso_TMI_braintumor.pdf

@@ -1,0 +1,20 @@
+order: 1
+releases:
+  - a2d
+  - libsvx
+  - action-bank
+  - a2cl-pt
+  - bubblenets
+  - devil
+title: Video & Scene Understanding
+short: Video & Scenes
+summary: Segmenting, localizing, and recognizing actors, actions, and objects as they unfold over time.
+body:
+  - Video is the richest record we have of the physical world, and one of the hardest signals to parse. A single clip mixes many actors, many actions, camera motion, and long stretches where nothing relevant happens.
+  - The group has worked on this problem at every level of the stack. Early work built supervoxel hierarchies and streaming segmentation as a foundation for video analysis, then high-level action representations and A2D, 3,782 YouTube videos labeled pixel by pixel with seven kinds of actor doing eight actions. More recent work targets what still breaks in practice - localizing activities with weak supervision, predicting where people look, choosing which frame to annotate, and diagnosing how video inpainting methods fail.
+threads:
+  - Actor-action recognition and segmentation
+  - Supervoxels and video object segmentation
+  - Weakly supervised temporal localization
+  - Egocentric video and gaze
+  - Video saliency, inpainting, and prediction

@@ -1,0 +1,18 @@
+title: Attribute-Guided Sketch Generation
+authors:
+  - H. Tang
+  - X. Chen
+  - W. Wang
+  - D. Xu
+  - J. J. Corso
+  - N. Sebe
+  - Y. Yan
+year: 2019
+type: conference
+venue: IEEE Conference on Automatic Face and Gesture Recognition
+venueShort: FG
+topics:
+  - learning
+links:
+  arxiv: https://arxiv.org/abs/1901.09774
+  doi: https://doi.org/10.1109/FG.2019.8756586

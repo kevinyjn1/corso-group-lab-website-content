@@ -1,0 +1,13 @@
+order: 6
+title: Learning, Data & Generation
+short: Learning & Data
+summary: The machinery underneath - efficient and robust models, better data, and generative models of motion.
+body:
+  - Progress on perception depends on the tools beneath it - how models are trained, how small and robust they can be made, and how well we understand the data they learn from.
+  - This area collects the group's work on those foundations. It spans metric learning and active clustering, graphical models and hierarchical energy minimization, an information-theoretic method for pruning deep networks, and ways of training on a filtered subset of the data that, combined with adversarial training, make networks more robust to attack. It also covers data-centric questions such as measuring classification difficulty and selecting coresets without labels (on ImageNet, a model trained on a 10% subset chosen without labels reached 53.99% accuracy, on par with the label-based methods it was compared with), and generative models for video, human motion, and co-speech gesture.
+threads:
+  - Network compression and robustness
+  - Metric learning and active clustering
+  - Graphical models and energy minimization
+  - Data-centric AI and label quality
+  - Video, motion, and gesture generation

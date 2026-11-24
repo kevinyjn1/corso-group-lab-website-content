@@ -1,0 +1,25 @@
+title: "Seeing is Worse than Believing: Reading People's Minds Better than Computer-Vision Methods Recognize Actions"
+authors:
+  - A. Barbu
+  - D. Barrett
+  - W. Chen
+  - N. Siddharth
+  - C. Xiong
+  - J. J. Corso
+  - C. D. Fellbaum
+  - C. Hanson
+  - S. J. Hanson
+  - S. Hélie
+  - E. Malaia
+  - B. A. Pearlmutter
+  - J. M. Siskind
+  - T. M. Talavage
+  - R. B. Wilbur
+year: 2014
+type: conference
+venue: European Conference on Computer Vision
+venueShort: ECCV
+topics:
+  - video
+links:
+  doi: https://doi.org/10.1007/978-3-319-10602-1_40

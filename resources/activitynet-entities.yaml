@@ -1,0 +1,15 @@
+name: ActivityNet-Entities
+kind: dataset
+year: 2019
+featured: true
+summary: About 158,000 bounding boxes that ground the noun phrases of about 52,000 ActivityNet Captions segments, one frame per phrase, released with Grounded Video Description (CVPR 2019 oral).
+topics:
+  - language
+  - video
+links:
+  - label: Paper
+    href: https://arxiv.org/abs/1812.06587
+  - label: Data
+    href: https://github.com/facebookresearch/ActivityNet-Entities
+  - label: Code
+    href: https://github.com/facebookresearch/grounded-video-description

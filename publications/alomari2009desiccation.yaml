@@ -1,0 +1,15 @@
+title: Desiccation Diagnosis in Lumbar Discs from Clinical MRI with a Probabilistic Model
+authors:
+  - R. S. Alomari
+  - J. J. Corso
+  - V. Chaudhary
+  - G. Dhillon
+year: 2009
+type: conference
+venue: IEEE International Symposium on Biomedical Imaging
+venueShort: ISBI
+topics:
+  - health
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/isbi2009_lumbar.pdf
+  doi: https://doi.org/10.1109/ISBI.2009.5193105

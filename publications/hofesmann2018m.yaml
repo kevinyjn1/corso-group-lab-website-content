@@ -1,0 +1,14 @@
+title: 'M-PACT: An Open Source Platform for Repeatable Activity Classification Research'
+authors:
+  - E. Hofesmann
+  - M. R. Ganesh
+  - J. J. Corso
+year: 2018
+type: preprint
+venue: arXiv preprint
+venueShort: arXiv
+topics:
+  - video
+links:
+  arxiv: https://arxiv.org/abs/1804.05879
+  code: https://github.com/MichiganCOG/M-PACT

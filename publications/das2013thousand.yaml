@@ -1,0 +1,19 @@
+title: 'A Thousand Frames in Just a Few Words: Lingual Description of Videos through Latent Topics and Sparse Object Stitching'
+authors:
+  - P. Das
+  - C. Xu
+  - R. F. Doell
+  - J. J. Corso
+year: 2013
+type: conference
+venue: IEEE Conference on Computer Vision and Pattern Recognition
+venueShort: CVPR
+topics:
+  - video
+  - language
+featured: true
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/jcorso_CVPR2013_dpmtm.pdf
+  doi: https://doi.org/10.1109/CVPR.2013.340
+  data: https://web.eecs.umich.edu/~jjcorso/r/youcook
+  poster: https://web.eecs.umich.edu/~jjcorso/pubs/jcorso_CVPR2013_dpmtm_poster.pdf

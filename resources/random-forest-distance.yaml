@@ -1,0 +1,11 @@
+name: Random Forest Distance
+kind: software
+year: 2012
+summary: Tree-structured metric learning that adapts the distance function across the feature space (KDD 2012).
+topics:
+  - learning
+links:
+  - label: Paper
+    href: https://arxiv.org/abs/1201.0610
+  - label: Download (.zip)
+    href: https://web.eecs.umich.edu/~jjcorso/pubs/RFD_Package.zip

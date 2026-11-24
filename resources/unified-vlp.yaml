@@ -1,0 +1,11 @@
+name: Unified VLP
+kind: software
+year: 2020
+summary: Unified vision-language pretraining for image captioning and visual question answering (AAAI 2020).
+topics:
+  - language
+links:
+  - label: Paper
+    href: https://arxiv.org/abs/1909.11059
+  - label: Code
+    href: https://github.com/LuoweiZhou/VLP

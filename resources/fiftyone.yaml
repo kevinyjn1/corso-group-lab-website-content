@@ -1,0 +1,12 @@
+name: FiftyOne
+kind: software
+year: 2020
+featured: true
+summary: An open-source tool for visualizing and analyzing datasets and debugging models. Built at Voxel51, the company Prof. Corso co-founded.
+topics:
+  - learning
+links:
+  - label: Code
+    href: https://github.com/voxel51/fiftyone
+  - label: Voxel51
+    href: https://voxel51.com/

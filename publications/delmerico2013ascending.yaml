@@ -1,0 +1,17 @@
+title: Ascending Stairway Modeling from Dense Depth Imagery for Traversability Analysis
+authors:
+  - J. A. Delmerico
+  - D. Baran
+  - P. David
+  - J. Ryde
+  - J. J. Corso
+year: 2013
+type: conference
+venue: IEEE International Conference on Robotics and Automation
+venueShort: ICRA
+topics:
+  - robotics
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/delmerico_ICRA2013_stairs.pdf
+  doi: https://doi.org/10.1109/ICRA.2013.6630886
+  project: https://web.eecs.umich.edu/~jjcorso/r/gbs/

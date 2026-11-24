@@ -1,0 +1,13 @@
+title: Spectral Active Clustering via Purification of the k-Nearest Neighbor Graph
+authors:
+  - C. Xiong
+  - D. M. Johnson
+  - J. J. Corso
+year: 2012
+type: conference
+venue: European Conference on Data Mining
+venueShort: ECDM
+topics:
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/ECDM2012_activeclustering.pdf

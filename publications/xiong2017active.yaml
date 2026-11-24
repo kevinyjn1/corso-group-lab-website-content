@@ -1,0 +1,14 @@
+title: Active Clustering with Model-Based Uncertainty Reduction
+authors:
+  - C. Xiong
+  - D. M. Johnson
+  - J. J. Corso
+year: 2017
+type: journal
+venue: IEEE Transactions on Pattern Analysis and Machine Intelligence
+venueShort: TPAMI
+topics:
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/cxiong_TPAMI_ace.pdf
+  arxiv: https://arxiv.org/abs/1402.1783

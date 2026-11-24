@@ -1,0 +1,15 @@
+title: Interactive Visualization of Unstructured Grids Using Hierarchical 3D Textures
+authors:
+  - J. Leven
+  - J. J. Corso
+  - J. D. Cohen
+  - S. Kumar
+year: 2002
+type: conference
+venue: IEEE/SIGGRAPH Symposium on Volume Visualization and Graphics
+venueShort: VOLVIS
+topics:
+  - learning
+links:
+  pdf: https://web.eecs.umich.edu/~jjcorso/pubs/leven02unstructgrid.pdf
+  doi: https://doi.org/10.1109/SWG.2002.1226508

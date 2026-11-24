@@ -1,0 +1,19 @@
+title: A Framework for a Capability-Driven Evaluation of Scenario Understanding for Multimodal Large Language Models in Autonomous Driving
+authors:
+  - T. S. Sohn
+  - P. Reis
+  - M. Dillitzer
+  - J. Bach
+  - J. J. Corso
+  - E. Sax
+year: 2025
+date: 2025-09
+type: conference
+venue: IEEE International Automated Vehicle Validation Conference
+venueShort: IAVVC
+topics:
+  - robotics
+  - language
+links:
+  arxiv: https://arxiv.org/abs/2503.11400
+  doi: https://doi.org/10.1109/IAVVC61942.2025.11219622

@@ -1,0 +1,15 @@
+title: 'Floyd-Warshall Reinforcement Learning: Learning from Past Experiences to Reach New Goals'
+authors:
+  - V. Dhiman
+  - S. Banerjee
+  - J. M. Siskind
+  - J. J. Corso
+year: 2018
+type: preprint
+venue: arXiv preprint
+venueShort: arXiv
+topics:
+  - robotics
+  - learning
+links:
+  arxiv: https://arxiv.org/abs/1809.09318

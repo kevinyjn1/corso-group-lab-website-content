@@ -1,0 +1,34 @@
+title: 'TRECVID 2012 GENIE: Multimedia Event Detection and Recounting'
+authors:
+  - A. G. A. Perera
+  - S. Oh
+  - M. Pandey
+  - T. Ma
+  - A. Hoogs
+  - A. Vahdat
+  - K. Cannons
+  - H. Hajimirsadeghi
+  - G. Mori
+  - S. McCloskey
+  - B. Miller
+  - S. Venkatesha
+  - P. Davalos
+  - P. Das
+  - C. Xu
+  - J. J. Corso
+  - R. K. Srihari
+  - I. Kim
+  - Y.-C. Cheng
+  - Z. Huang
+  - C.-H. Lee
+  - K. Tang
+  - L. Fei-Fei
+  - D. Koller
+year: 2012
+type: report
+venue: NIST TRECVID Workshop
+topics:
+  - video
+  - learning
+links:
+  pdf: https://www-nlpir.nist.gov/projects/tvpubs/tv12.papers/genie.pdf
