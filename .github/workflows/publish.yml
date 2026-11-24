@@ -1,0 +1,248 @@
+name: Publish
+
+# Puts the website online.
+#
+# This repository holds the website's content: its words and lists, one small file per entry.
+# The website's code lives in another repository. This workflow takes the code, hands it the
+# content, checks the result, and publishes it. It runs:
+#
+# - whenever the content changes (someone saved a form in the editor),
+# - when someone presses "Run workflow" on this page, and
+# - once a night, to pick up changes to the website's code. A nightly run that finds nothing new
+#   stops after a few seconds.
+#
+# Nothing in this repository is run as a program. The content is first passed through the
+# content gate, a check that lives with the code, which copies only the files it recognizes.
+# Every step below runs from the code's folder (`site`), never from this repository's files.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '23 8 * * *'
+
+# Each job asks for what it needs and no more.
+permissions: {}
+
+concurrency:
+  # One publish at a time, in order. A run in progress is never cut off half way.
+  group: publish
+  cancel-in-progress: false
+
+env:
+  # Where the website's code is, and which version of it to build with: `release` is the newest
+  # version that has passed all of its own tests.
+  CODE_REPOSITORY: kevinyjn1/corso-group-lab-website
+  CODE_REF: release
+  # This copy of the site is a preview that the group has not reviewed, so search engines are
+  # asked not to list it. Delete this line to let the site be found.
+  SITE_NOINDEX: 'true'
+
+jobs:
+  build:
+    name: Check and build
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+      pages: read
+    outputs:
+      publish: ${{ steps.news.outputs.publish }}
+    steps:
+      - name: Get the website's code
+        uses: actions/checkout@v7
+        with:
+          repository: ${{ env.CODE_REPOSITORY }}
+          ref: ${{ env.CODE_REF }}
+          path: site
+          persist-credentials: false
+
+      - name: Get the content
+        uses: actions/checkout@v7
+        with:
+          path: incoming
+          persist-credentials: false
+
+      - name: Look up the website's address
+        id: pages
+        uses: actions/configure-pages@v6
+
+      - name: Is there anything new to publish?
+        id: news
+        env:
+          LIVE: ${{ steps.pages.outputs.base_url }}/version.json
+          EVENT: ${{ github.event_name }}
+        run: |
+          code=$(git -C site rev-parse HEAD)
+          content=$(git -C incoming rev-parse HEAD)
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          echo "content=$content" >> "$GITHUB_OUTPUT"
+          wanted="{\"code\":\"$code\",\"content\":\"$content\"}"
+          live=$(curl --silent --fail --max-time 20 "$LIVE" || true)
+          if [ "$EVENT" = "schedule" ] && [ "$live" = "$wanted" ]; then
+            echo "publish=false" >> "$GITHUB_OUTPUT"
+            echo "The website already shows this content with this code. Nothing to do." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "publish=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-node@v7
+        if: steps.news.outputs.publish == 'true'
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+
+      - name: Install what the code needs
+        if: steps.news.outputs.publish == 'true'
+        working-directory: site
+        run: npm ci
+
+      - name: 'Check 1: only files the website knows, and nothing unsafe'
+        if: steps.news.outputs.publish == 'true'
+        working-directory: site
+        run: |
+          set -o pipefail
+          node scripts/content-gate.mjs ../incoming content 2>&1 | tee ../report.txt
+
+      - name: 'Check 2: every entry has the right kind of value in every box'
+        if: steps.news.outputs.publish == 'true'
+        working-directory: site
+        env:
+          CONTENT_DIR: content
+          NO_COLOR: '1'
+        run: |
+          if ! npx astro sync > ../sync.txt 2>&1; then
+            {
+              echo "The content was not accepted. An entry has a value the website cannot use:"
+              echo
+              # The lines that name the entry and the box.
+              sed -n '/Error\]/,/Hint:/p' ../sync.txt | sed '/Hint:/d'
+              echo
+              echo "Nothing was published. The site stays as it was until this is fixed."
+            } | tee ../report.txt
+            exit 1
+          fi
+
+      - name: Install the browser the checks run in
+        if: steps.news.outputs.publish == 'true'
+        working-directory: site
+        run: npx playwright install --with-deps chromium
+
+      - name: 'Check 3: build the website and test every page'
+        if: steps.news.outputs.publish == 'true'
+        working-directory: site
+        env:
+          CONTENT_DIR: content
+          SITE_URL: ${{ steps.pages.outputs.origin }}
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}/
+        run: |
+          if ! npx playwright test tests/publish.spec.ts; then
+            {
+              echo "The content was accepted, but a page built from it failed a check"
+              echo "(it did not load cleanly, a picture is missing, a link leads nowhere, or"
+              echo "something runs off the side of the screen). The log of this run names the page."
+              echo
+              echo "Nothing was published. The site stays as it was until this is fixed."
+            } | tee ../report.txt
+            exit 1
+          fi
+
+      - name: Confirm the build is hidden from search
+        if: steps.news.outputs.publish == 'true' && env.SITE_NOINDEX == 'true'
+        run: grep -q 'name="robots" content="noindex"' site/dist/index.html
+
+      - name: Note which content and code this build is
+        if: steps.news.outputs.publish == 'true'
+        env:
+          CODE: ${{ steps.news.outputs.code }}
+          CONTENT: ${{ steps.news.outputs.content }}
+        run: printf '{"code":"%s","content":"%s"}' "$CODE" "$CONTENT" > site/dist/version.json
+
+      - uses: actions/upload-pages-artifact@v5
+        if: steps.news.outputs.publish == 'true'
+        with:
+          path: site/dist
+
+      - name: Keep the reason, if a check stopped the publish
+        if: failure()
+        uses: actions/upload-artifact@v7
+        with:
+          name: report
+          path: report.txt
+          if-no-files-found: ignore
+          retention-days: 7
+
+  deploy:
+    name: Put it online
+    needs: build
+    if: needs.build.outputs.publish == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish
+        id: deployment
+        uses: actions/deploy-pages@v5
+      - name: Check the live site responds
+        env:
+          URL: ${{ steps.deployment.outputs.page_url }}
+        run: >
+          curl --fail --silent --show-error --output /dev/null
+          --retry 6 --retry-delay 10 --retry-all-errors "$URL"
+
+  tell:
+    # A change that could not be published must not fail silently. This opens an issue in this
+    # repository saying why, in plain words, which emails everyone who watches the repository.
+    # When a later publish succeeds, the issue is closed.
+    name: Say what happened
+    needs: [build, deploy]
+    if: always() && needs.build.outputs.publish != 'false'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      issues: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+      TITLE: A change to the website could not be published
+    steps:
+      - uses: actions/download-artifact@v8
+        if: needs.build.result == 'failure'
+        continue-on-error: true
+        with:
+          name: report
+      - name: Open or update the issue
+        if: needs.build.result == 'failure' || needs.deploy.result == 'failure'
+        run: |
+          {
+            if [ -s report.txt ]; then
+              echo '```'
+              # Plain text only, and not too much of it.
+              head -c 6000 report.txt | tr -d '`'
+              echo '```'
+            else
+              echo "The publish stopped before the website could be updated."
+            fi
+            echo
+            echo "The website still shows what it showed before. Fix the entry in the editor and save it again; that starts a new publish. The full log is here: $RUN_URL"
+          } > body.md
+          open=$(gh issue list --state open --search "in:title \"$TITLE\"" --json number --jq '.[0].number // empty')
+          if [ -n "$open" ]; then
+            gh issue comment "$open" --body-file body.md
+          else
+            gh issue create --title "$TITLE" --body-file body.md
+          fi
+      - name: Close the issue once a publish has gone through
+        if: needs.deploy.result == 'success'
+        run: |
+          for number in $(gh issue list --state open --search "in:title \"$TITLE\"" --json number --jq '.[].number'); do
+            gh issue close "$number" --comment "Published again: $RUN_URL"
+          done
