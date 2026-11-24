@@ -4,7 +4,7 @@ This repository holds the words and lists of the Corso Group website: its papers
 releases, courses, and research areas. Each entry is one small text file. The website's design and
 code live in [another repository](https://github.com/kevinyjn1/corso-group-lab-website).
 
-When anything here changes, the website is rebuilt and published by itself, usually within five
+When anything here changes, the website is rebuilt and published by itself, usually within three
 minutes.
 
 ## Editing the website
@@ -22,7 +22,7 @@ and save:
 - **Changing something.** Find the entry with the search box, open it, change it, and save.
 - **When someone graduates or leaves.** Open their entry under People, change "In the group now?"
   to Alumni, and fill in the year. Do not delete them: alumni are listed on the site.
-- **Seeing it live.** Give it five minutes, then reload the website.
+- **Seeing it live.** Give it three minutes, then reload the website.
 
 ### What to write
 
