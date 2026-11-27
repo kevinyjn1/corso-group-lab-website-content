@@ -273,7 +273,7 @@ content:
       - name: youtubeId
         label: YouTube id
         type: string
-        description: 'For a YouTube video, the 11 characters after "v=" in its address. The video then plays on the page.'
+        description: 'Optional. For a YouTube video, the 11 characters after "v=" in its address. The video plays on the page once the site has a still picture for it; until then it is listed with its link.'
         pattern:
           regex: '^([A-Za-z0-9_-]{11})?$'
           message: 'The 11 characters after "v=" in the address'
