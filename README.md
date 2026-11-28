@@ -63,6 +63,14 @@ GitHub account with write access to this repository. It does not take programmin
 
 To be told when a publish fails, press **Watch** on this repository and choose **All Activity**.
 
+### If the editor shows the forms but will not save
+
+A red message that says "Resource not accessible by integration" comes from GitHub, not from the
+form: the editor's app has no right to write to this repository. Signing in to the editor is not
+enough, and the forms still appear because this repository is public. On GitHub, open
+**Settings**, **Applications**, **Pages CMS**, **Configure**, choose **Only select repositories**,
+select this repository and no other, and save. Then reload the editor and save again.
+
 ### Handing the site to the next manager
 
 The site should belong to an organization the professor owns, with two owners, so that it never
